@@ -4,6 +4,11 @@ Chatbot sederhana berbasis scikit-learn untuk membantu mahasiswa memberikan info
 
 ## Installation
 
+Lakukan di terminal agar dapat melakukan clone dari github ini:
+```bash
+https://github.com/jupitvq/simple-uib-assistant.git
+```
+
 Pastikan [pip](https://pip.pypa.io/en/stable/) dan [Python 3.11](https://www.python.org/downloads/release/python-31110/) terinstal, lalu jalankan dependencies yang dibutuhkan dengan cmd dibawah:
 
 ```bash
