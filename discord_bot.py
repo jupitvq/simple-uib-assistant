@@ -63,12 +63,10 @@ async def tanya(interaction: discord.Interaction, pertanyaan: str):
     
     await interaction.response.defer()
     response, tag = bot_response(pertanyaan, pipeline, jp)
-    # Kirim jawaban ke Discord
     await interaction.followup.send(f"\n{response}")
 
 
 def main():
-    # Get the bot token from environment variable
     token = os.getenv("DISCORD_BOT_TOKEN")
     if not token:
         raise ValueError("Tidak ada token bot discord yang ditemukan di environment variable DISCORD_BOT_TOKEN")
