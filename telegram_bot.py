@@ -20,12 +20,13 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.2:
+    if max_prob < 0.05:
         return "Maaf, saya tidak mengerti, jika anda butuh bantuan harap menghubungi humas kami.", None
     else:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
-        return jp.get_response(pred_tag), pred_tag
+        response = jp.get_response(pred_tag)
+        return response, pred_tag
 
 with open("model_chatbot.pkl", "rb") as model_file:
     pipeline = pickle.load(model_file)
@@ -48,7 +49,7 @@ async def handle_message(update: Update, context: CallbackContext) -> None:
     user_message = update.message.text
     response, tag = bot_response(user_message, pipeline, jp)
     await update.message.reply_text(response)
-    if tag == 'bye':
+    if tag == 'bye' or tag == 'bye_umum':
         await update.message.reply_text('Sampai jumpa!')
 
 def main() -> None:

@@ -19,12 +19,13 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.2:
-        return "Maaf, saya tidak mengerti, jika anda butuh bantuan harap menghubungi humas kami." , None
+    if max_prob < 0.05:
+        return "Maaf, saya tidak mengerti, jika anda butuh bantuan harap menghubungi humas kami.", None
     else:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
-        return jp.get_response(pred_tag), pred_tag
+        response = jp.get_response(pred_tag)
+        return response, pred_tag
 
 # load data
 path = "data/intents.json"
@@ -54,6 +55,5 @@ while True:
     chat = input("Anda >> ")
     res, tag = bot_response(chat, pipeline, jp)
     print(f"UIB >> {res}")
-    if tag == 'bye':
+    if tag == 'bye' or tag == 'bye_umum':
         break
-
