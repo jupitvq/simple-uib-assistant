@@ -49,7 +49,7 @@ pipeline.fit(df.text_input_prep, df.intents)
 with open("model_chatbot.pkl", "wb") as model_file:
     pickle.dump(pipeline, model_file)
 
-# interaction with bot
+# interaksi
 print("[INFO] Anda sudah terhubung dengan virtual assistant kami.")
 while True:
     chat = input("Anda >> ")

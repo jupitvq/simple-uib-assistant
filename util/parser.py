@@ -14,7 +14,7 @@ class JSONParser:
             self.data = json.load(data_file)
 
         for intent in self.data['intents']:
-            # Check if subintents exist
+
             if 'subintents' in intent:
                 for subintent in intent['subintents']:
                     for pattern in subintent['patterns']:
@@ -26,7 +26,6 @@ class JSONParser:
                         else:
                             self.responses[subintent['tag']] = [resp]
             else:
-                # Original intent parsing if no subintents
                 for pattern in intent['patterns']:
                     self.text.append(pattern)
                     self.intents.append(intent['tag'])
