@@ -19,7 +19,7 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.05:
+    if max_prob < 0.06:
         return "Maaf, saya tidak mengerti, jika anda butuh bantuan harap menghubungi humas kami.", None
     else:
         max_id = np.argmax(res[0])

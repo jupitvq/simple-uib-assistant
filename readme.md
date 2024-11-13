@@ -22,7 +22,7 @@ Pastikan [pip](https://pip.pypa.io/en/stable/) dan [Python 3.11](https://www.pyt
 ```bash
 pip install -r requirements.txt
 ```
-Ketika semua selesai, project siap dijalankan, di repo ini akan ada 2 model yang sudah ditrain, model dari jupyter notebook dan dari python file, **satu model untuk deployment** dan **satu model untuk testing di environment**.
+Ketika semua selesai, project siap dijalankan, di repo ini akan ada 2 model yang sudah ditrain, model dari jupyter notebook dan dari python file, *satu model untuk deployment* dan *satu model untuk testing di environment*.
 - Jika model ingin diubah, ubah di `data/intents.json` lalu jalankan `sklearn_chatbot.ipynb` dan isi input yang ada untuk pengetesan.
 - Jika ingin mencoba lokal dengan model yang ada (tidak dideploy), jalankan `chatbot_sklearn_training.py`
 - Jika ingin di deploy di Discord/Telegram, maka isilah parameter `.env` yang diperlukan.

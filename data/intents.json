@@ -6,16 +6,18 @@
           {
             "tag": "salam_pertanyaan",
             "patterns": [
-              "Bagaimana cara mendaftar?",
-              "Bagaimana cara pembayaran?",
-              "Ada yang bisa dibantu?",
+              "saya minta tolong",
+              "saya ada pertanyaan",
+              "Saya ingin bertanya",
               "Mau tanya",
               "Bantu saya"
             ],
             "responses": [
-              "Halo! Saya siap melayani Anda. Apa yang bisa saya bantu terkait pendaftaran atau informasi lainnya?",
-              "Hai, ada yang bisa saya bantu? Silakan tanyakan tentang pendaftaran atau beasiswa.",
-              "Hai! Jangan ragu untuk bertanya. Saya siap memberikan informasi tentang pendaftaran atau beasiswa."
+              "👋 *Halo! Selamat datang di layanan informasi pendaftaran UIB!*\n\nSaya siap membantu Anda dengan berbagai informasi terkait pendaftaran program S1, beasiswa, jadwal penting, dan banyak lagi. 😊\n\nBerikut beberapa hal yang bisa saya bantu:\n\n1️⃣ *Informasi Pendaftaran:* Saya dapat memberikan info tentang prosedur pendaftaran, persyaratan, dan dokumen yang dibutuhkan.\n2️⃣ *Beasiswa:* Cari tahu tentang beasiswa yang tersedia dan cara untuk mendaftar.\n3️⃣ *Jadwal dan Tenggat Waktu:* Dapatkan informasi tentang deadline pendaftaran dan acara penting lainnya.\n\n🔍 *Apa yang ingin Anda ketahui?* Silakan pilih topik atau tanyakan langsung, dan saya akan dengan senang hati membantu!"
+              ,
+              "👋 *Hai, terima kasih telah menghubungi kami!*\n\nSaya di sini untuk memberikan informasi yang Anda butuhkan tentang pendaftaran dan layanan lainnya di UIB.\n\nAnda bisa bertanya mengenai hal-hal berikut:\n\n🔹 *Pendaftaran S1:* Semua info tentang cara mendaftar, syarat, dan tanggal penting.\n🔹 *Beasiswa:* Temukan info tentang beasiswa yang tersedia dan cara mendaftar.\n🔹 *Jadwal Pendaftaran:* Jangan lewatkan tenggat waktu pendaftaran dan informasi penting lainnya.\n\n💬 *Silakan beri tahu saya apa yang Anda butuhkan!*"
+              ,
+              "👋 *Halo! Terima kasih telah menghubungi layanan pendaftaran UIB!*\n\nSaya siap membantu Anda mendapatkan informasi tentang berbagai topik, seperti:\n\n✨ *Pendaftaran Program S1:* Info tentang cara mendaftar, persyaratan, dan biaya pendaftaran.\n✨ *Beasiswa:* Cari tahu tentang beasiswa yang dapat Anda ajukan dan persyaratannya.\n✨ *Jadwal Penting:* Dapatkan informasi tentang deadline pendaftaran dan acara lainnya.\n\n💡 *Silakan tuliskan pertanyaan Anda*, dan saya akan memberikan jawaban yang Anda butuhkan. Saya di sini untuk membantu!"
             ]
           },
           {
@@ -32,33 +34,18 @@
               "P",
               "Halooo",
               "Weh",
-              "yo",
-              "cuy",
-              "test",
-              "testing",
-              "123",
-              "coeg",
-              "cok",
-              "cuk",
               "woe",
-              "Selamat Datang di UIB",
+              "siapa namamu",
               "Hi UIB",
-              "Halo UIB",
+              "nama anda siapa",
               "Assalamualaikum"
             ],
             "responses": [
-              "Halo! Saya siap melayani Anda.",
-              "Hai, saya adalah virtual assistant UIB. Silahkan bertanya!",
-              "Halo, ada yang bisa saya bantu?",
-              "Halo, saya adalah virtual assistant UIB. Ada yang bisa saya bantu?",
-              "Hai! Jangan ragu untuk bertanya.",
-              "Hai, saya adalah asisten virtual UIB. Ada yang ingin Anda tanyakan?",
-              "Hai! Apakah Anda butuh bantuan? Saya siap membantu Anda.",
-              "Halo! Siap melayani Anda. Silakan tanyakan apa saja.",
-              "Hai, ada yang bisa saya bantu? Saya siap melayani Anda.",
-              "Halo! Saya asisten virtual di sini. Apa yang bisa saya bantu hari ini?",
-              "Hai! Saya siap membantu dengan informasi apa pun yang Anda butuhkan. Ada yang ingin ditanyakan?",
-              "Selamat datang! Saya di sini untuk membantu. Silakan tanya apa saja yang Anda butuhkan."
+              "👋 *Halo! Saya adalah asisten virtual Anda di UIB.*\n\nSaya siap membantu Anda dengan informasi tentang pendaftaran, beasiswa, dan berbagai layanan lainnya. 😊\n\nBerikut adalah beberapa hal yang bisa saya bantu:\n\n1️⃣ *Pendaftaran S1:* Panduan lengkap tentang cara mendaftar, persyaratan, dan dokumen yang diperlukan.\n2️⃣ *Beasiswa:* Cari tahu tentang beasiswa yang tersedia dan cara mendaftar.\n3️⃣ *Jadwal Pendaftaran:* Jangan lewatkan tenggat waktu penting terkait pendaftaran.\n\n🔍 *Apa yang bisa saya bantu hari ini?* Silakan pilih topik atau ajukan pertanyaan langsung!"
+              ,
+              "*Hai, saya asisten virtual Anda di UIB!* \n\nSaya di sini untuk memberikan informasi lengkap tentang pendaftaran S1, beasiswa, dan acara penting lainnya.\n\nAnda bisa bertanya mengenai hal-hal berikut:\n\n🔹 *Pendaftaran S1:* Informasi tentang cara mendaftar dan tanggal penting.\n🔹 *Beasiswa:* Temukan beasiswa yang tersedia dan cara mendaftar.\n🔹 *Jadwal Pendaftaran:* Info tentang tenggat waktu pendaftaran.\n\n💬 *Apa yang bisa saya bantu untuk Anda?*"
+              ,
+              "👋 *Halo, saya asisten virtual UIB yang siap membantu Anda!* \n\nJika Anda membutuhkan informasi tentang pendaftaran, beasiswa, atau hal lainnya, saya ada di sini untuk membantu.\n\nBerikut beberapa hal yang bisa saya bantu:\n\n✨ *Pendaftaran Program S1:* Semua informasi terkait pendaftaran, persyaratan, dan biaya.\n✨ *Beasiswa:* Informasi tentang beasiswa yang dapat Anda ajukan.\n✨ *Jadwal Penting:* Jangan lewatkan deadline pendaftaran dan acara penting lainnya.\n\n💡 *Silakan ketik pertanyaan Anda*, saya akan memberikan jawaban yang Anda butuhkan!"
             ]
           }
         ]
@@ -69,155 +56,24 @@
           {
             "tag": "bye_umum",
             "patterns": [
-              "Dadah",
+              "makasih",
               "Selamat Tinggal",
               "Dah",
               "Daah",
-              "Sampai Jumpa Lagi",
-              "Ok makasih",
-              "Sampai ketemu lagi",
-              "Ok bye",
+              "Sampai Jumpa",
               "bye",
-              "Sampai jumpa lagi",
-              "Makasih ya",
-              "Oke, sampai jumpa",
-              "Saya pamit dulu",
-              "Dadah, terima kasih",
-              "Oke, terima kasih banyak",
-              "Sudah cukup, sampai jumpa",
-              "Terima kasih, saya pamit",
-              "Sampai lain waktu",
-              "Saya akan kembali nanti",
-              "Sudah cukup, terima kasih",
-              "Baik, saya undur diri",
-              "Oke, saya pergi dulu",
-              "Sampai jumpa lain waktu",
-              "Oke, terima kasih dan sampai jumpa",
-              "Bye, semoga harimu menyenangkan juga",
-              "Terima kasih, saya akan pergi dulu",
-              "Oke, pamit dulu ya",
-              "Saya mau pamit, terima kasih",
-              "Saya akan hubungi lagi nanti"
+              "Terima kasih",
+              "pamit dulu",
+              "thank you",
+              "ty"
             ],
             "responses": [
-              "Sampai jumpa lagi, hubungi kami kembali jika ada pertanyaan.",
-              "Kalau ada masalah, hubungi kami kembali.",
-              "Semoga harimu menyenangkan! Chat kami kembali jika Anda mempunyai pertanyaan!",
-              "Sampai jumpa! Jangan ragu untuk kembali jika butuh bantuan.",
-              "Sampai jumpa! Kami akan selalu siap membantu jika Anda memerlukan sesuatu lagi.",
-              "Semoga hari Anda menyenangkan juga! Jangan ragu untuk kembali bila ada pertanyaan.",
-              "Semoga harimu juga menyenangkan! Kami selalu siap membantu.",
-              "Sampai jumpa! Jangan sungkan untuk kembali jika ada pertanyaan.",
-              "Terima kasih, semoga harimu menyenangkan! Kami siap membantu kapan pun Anda butuhkan.",
-              "Sampai jumpa! Jangan ragu untuk kembali jika memerlukan bantuan lebih lanjut."
-            ]
-          }
-        ]
-      },
-      {
-        "tag": "nama",
-        "subintents": [
-          {
-            "tag": "nama_pertanyaan",
-            "patterns": [
-              "nama kamu siapa?",
-              "lu siapa?",
-              "siapa sih lo?",
-              "siapa namamu?",
-              "siapa nama anda?",
-              "nama?",
-              "boleh tahu nama kamu?",
-              "kamu siapa?",
-              "siapa ya ini?",
-              "siapa nama kamu?",
-              "nama kamu apa?",
-              "kamu disebut siapa?",
-              "siapa nama lengkap kamu?",
-              "siapa nama kamu sebenarnya?",
-              "kenalin diri dong",
-              "panggilannya siapa?",
-              "siapa ya namamu?",
-              "siapa nama asisten ini?",
-              "asisten ini siapa namanya?",
-              "siapa identitas kamu?",
-              "sebutkan namamu",
-              "kenalan dulu dong",
-              "kamu punya nama?",
-              "apa nama asisten ini?",
-              "bisa tahu nama kamu?",
-              "nama kamu beneran siapa?",
-              "siapa nama bot ini?",
-              "boleh tahu kamu siapa?",
-              "siapa nama asli kamu?",
-              "siapa nama dari asisten ini?",
-              "siapa namanya?",
-              "namanya siapa?",
-              "boleh tahu kamu disebut apa?",
-              "kamu dikenal dengan nama apa?",
-              "nama panggilan kamu siapa?"
-            ],
-            "responses": [
-              "Saya adalah Asisten UIB", 
-              "Halo, aku asisten UIB!", 
-              "Kenalin, aku asisten UIB!", 
-              "Hai, aku Asisten Virtual UIB. Ada yang bisa aku bantu?", 
-              "Salam kenal! Aku asisten digital dari UIB.", 
-              "Perkenalkan, aku adalah Asisten UIB, siap membantu!", 
-              "Halo! Aku asisten UIB yang siap menjawab pertanyaanmu.", 
-              "Aku Asisten UIB, senang bisa membantu kebutuhan informasi kamu.", 
-              "Hai, aku Asisten Virtual dari UIB. Ada yang ingin kamu tanyakan?", 
-              "Halo, aku asisten digital UIB. Siap membantu apa pun yang kamu butuhkan.", 
-              "Perkenalkan, aku adalah Asisten UIB. Bagaimana aku bisa membantumu hari ini?"
-            ]
-          }
-        ]
-      },
-      {
-        "tag": "pekerjaan",
-        "subintents": [
-          {
-            "tag": "pekerjaan_tugas",
-            "patterns": [
-              "tujuan kamu buat apa?",
-              "pekerjaan kamu apa?",
-              "kamu jadi apaan?",
-              "tugas kamu apa?",
-              "tugas anda ngapain?",
-              "apa saja yang kamu lakukan?",
-              "fungsi kamu apa?",
-              "tugas utamamu apa?",
-              "apa pekerjaan kamu?",
-              "kamu dibuat untuk apa?",
-              "kamu ngapain aja?",
-              "peran kamu apa?",
-              "kamu bisa bantu apa?",
-              "fungsimu di sini buat apa?",
-              "kamu di sini ngapain?",
-              "apa peranmu?",
-              "kamu membantu apa aja?",
-              "kamu bertugas sebagai apa?",
-              "apa tanggung jawab kamu?",
-              "apa yang bisa kamu lakukan?",
-              "apa fungsi kamu?",
-              "kamu kerja apa?",
-              "tujuanmu dibuat apa?",
-              "apa yang bisa kamu bantu?",
-              "bisa bantu apa kamu?",
-              "pekerjaan utama kamu apa?",
-              "kamu punya tugas apa di sini?",
-              "tujuan adanya kamu apa?",
-              "untuk apa kamu ada?",
-              "tanggung jawab kamu apa?"
-            ],
-            "responses": [
-              "Saya adalah virtual assistant UIB untuk membantu memberikan informasi.", 
-              "Tugas saya adalah memberikan informasi dan pelayanan seputar UIB.",
-              "Tugas utamaku adalah membantu menjawab pertanyaan dan memberikan informasi terkait UIB.", 
-              "Aku di sini untuk memudahkan kamu dalam mendapatkan informasi tentang UIB.", 
-              "Peranku adalah sebagai asisten virtual yang siap membantumu dengan kebutuhan informasi di UIB.", 
-              "Aku bertugas untuk memberikan panduan dan jawaban tentang berbagai hal seputar UIB.", 
-              "Tujuanku adalah membantu kamu menemukan informasi yang kamu butuhkan tentang UIB."
-            ]
+                "👋 *Sampai jumpa! Kami senang bisa membantu Anda hari ini.*\n\nJika ada pertanyaan lebih lanjut atau Anda membutuhkan informasi tambahan, jangan ragu untuk menghubungi kami kembali. Kami selalu siap membantu kapan saja! Anda juga bisa menghubungi kami melalui:\n\n📱 *LINE Pusat Informasi UIB:* [Link LINE]\n📞 *WhatsApp Pusat Informasi UIB:* [Nomor WhatsApp]\n\nSemoga harimu menyenangkan, dan sampai jumpa lagi! 😊",
+                
+                "🌟 *Terima kasih telah menghubungi kami! Sampai jumpa!* \n\nKami berharap Anda puas dengan bantuan yang diberikan. Jika ada pertanyaan lainnya atau jika Anda membutuhkan dukungan lebih lanjut, kami selalu siap membantu. Anda dapat menghubungi kami melalui:\n\n📱 *LINE Pusat Informasi UIB:* [Link LINE]\n📞 *WhatsApp Pusat Informasi UIB:* [Nomor WhatsApp]\n\nJangan ragu untuk kembali jika ada yang perlu Anda tanyakan! Semoga harimu menyenangkan! 😊",
+                
+                "😊 *Sampai jumpa! Terima kasih telah menghubungi kami.*\n\nJika ada hal lain yang perlu Anda diskusikan atau jika Anda merasa kurang puas dengan jawaban yang diberikan, Anda dapat langsung menghubungi pusat informasi kami melalui:\n\n📱 *LINE Pusat Informasi UIB:* [Link LINE]\n📞 *WhatsApp Pusat Informasi UIB:* [Nomor WhatsApp]\n\nKami siap memberikan bantuan lebih lanjut. Semoga hari Anda menyenankan dan sampai jumpa lagi! 🌟"
+              ]
           }
         ]
       },
@@ -232,32 +88,15 @@
               "kamu bisa ngapain aja?",
               "kamu bisa ngapain?",
               "apa kemampuan kau?",
-              "kamu punya keahlian apa?",
-              "apa yang bisa kamu bantu?",
-              "kamu bisa bantu apa?",
-              "kamu mampu ngapain?",
-              "fungsi kamu di sini apa?",
-              "apa saja yang bisa kamu lakukan?",
-              "bisa bantu tentang apa aja?",
-              "kamu ahli di bidang apa?",
-              "apa kemampuan kamu?",
-              "kamu bisa kasih informasi apa?",
-              "apa saja layanan yang bisa kamu berikan?",
-              "apa yang bisa kamu kerjakan?",
-              "kamu bisa bantu apa aja?",
-              "apa peran kamu di sini?",
-              "kamu bisa apa aja di UIB?",
-              "kamu membantu dalam hal apa?"
+              "kamu punya keahlian apa?"
             ],
             "responses": [
-              "Anda bisa bertanya seputar registrasi, beasiswa, maupun informasi akademik.", 
-              "Saya dapat memberikan informasi mengenai seputar UIB. Saya akan menjawab sebisa mungkin.", 
-              "Aku bisa membantu dengan pertanyaan tentang pendaftaran, program studi, dan kegiatan akademik di UIB.", 
-              "Tugasku mencakup memberikan info mengenai beasiswa, pendaftaran, dan layanan akademik di UIB.", 
-              "Saya dapat menjawab pertanyaan seputar proses pendaftaran, program sarjana, dan layanan kampus lainnya.", 
-              "Kemampuanku adalah memberikan panduan tentang layanan akademik dan informasi umum UIB.", 
-              "Saya di sini untuk membantu kamu menemukan info terkait pendaftaran, beasiswa, dan kebutuhan akademik lainnya."
-            ]
+                "👋 *Saya siap membantu Anda dengan berbagai informasi terkait UIB!* Jika Anda memiliki pertanyaan seputar registrasi, proses pendaftaran program S1, informasi tentang beasiswa yang tersedia, atau kegiatan akademik lainnya, saya di sini untuk memberikan panduan yang jelas. Jangan ragu untuk bertanya, saya akan berusaha memberikan jawaban yang Anda butuhkan.",
+                
+                "🌟 *Selamat datang! Saya dapat memberikan informasi lengkap tentang berbagai layanan di UIB.* Baik itu mengenai pendaftaran program studi, persyaratan yang diperlukan, proses beasiswa, atau berbagai layanan akademik lainnya. Jika Anda membutuhkan bantuan lebih lanjut, saya akan dengan senang hati memberikan penjelasan yang lebih detail.",
+                
+                "🎓 *Saya di sini untuk membantu Anda menemukan semua informasi yang Anda perlukan tentang pendaftaran, beasiswa, dan program studi di UIB.* Apakah Anda ingin tahu lebih lanjut tentang proses pendaftaran, pilihan program studi yang tersedia, atau persyaratan untuk mendaftar beasiswa? Saya akan memberikan semua informasi yang Anda butuhkan untuk memulai perjalanan akademik Anda."
+              ]
           }
         ]
       },
@@ -276,10 +115,11 @@
               "Kalo bayar lewat cabang OCBC gimana prosesnya?"
             ],
             "responses": [
-              "Untuk pembayaran di cabang, Anda perlu mengisi formulir penyetoran dengan mencantumkan nomor VA dan jumlah pembayaran. Pastikan untuk memeriksa ulang semua informasi sebelum menyelesaikan transaksi.",
-              "Di ATM, pilih menu 'Pembayaran', kemudian masukkan nomor VA dan nominal yang ingin dibayarkan. Proses ini juga berlaku di internet banking dan mobile banking dengan memilih menu 'Pembayaran Tagihan' atau 'Virtual Account'.",
-              "Nomor Virtual Account Anda biasanya merupakan kombinasi dari nomor rekening yang mencakup NPM (Nomor Pokok Mahasiswa). Selalu pastikan informasi ini akurat untuk menghindari masalah dalam pembayaran.",
-              "Jika Anda melakukan transfer antar-bank dari bank lain, gunakan ATM Bersama, Prima, atau internet/mobile banking. Masukkan kode bank OCBC NISP (028), diikuti nomor VA dan jumlah pembayaran yang diinginkan. Selalu periksa kembali detail transaksi sebelum mengonfirmasi untuk memastikan semuanya benar."
+              "Untuk pembayaran langsung di cabang *OCBC NISP*, ikuti langkah-langkah berikut:\n\n1️⃣ Ambil formulir penyetoran dari teller atau loket.\n2️⃣ Isi formulir dengan nomor *Virtual Account (VA)* yang disediakan oleh kampus dan nominal pembayaran.\n3️⃣ Periksa ulang semua informasi, termasuk nomor VA dan nominal pembayaran.\n4️⃣ Serahkan formulir kepada teller untuk diproses.\n\nSetelah transaksi selesai, teller akan memberikan bukti pembayaran yang dapat disimpan sebagai tanda bukti pembayaran yang sah.",
+          
+              "Jika Anda ingin membayar biaya kuliah langsung di cabang *OCBC NISP*, berikut panduan singkatnya:\n\n• Ambil formulir penyetoran di teller atau loket yang tersedia.\n• Isi dengan *nomor Virtual Account (VA)* kampus dan nominal pembayaran.\n• Cek kembali semua informasi di formulir untuk memastikan keakuratan data.\n• Serahkan formulir kepada teller.\n\nTeller akan memproses pembayaran dan memberikan bukti transaksi. Simpan bukti tersebut sebagai tanda pembayaran yang sah.",
+          
+              "Langkah pembayaran biaya kuliah di cabang *OCBC NISP*:\n\n1. Ambil formulir penyetoran.\n2. Isi nomor *Virtual Account (VA)* dan nominal pembayaran.\n3. Pastikan data sudah benar.\n4. Berikan formulir ke teller untuk diproses.\n\nBukti transaksi akan diberikan setelah pembayaran selesai. Simpan sebagai tanda bukti pembayaran yang sah."
             ]
           },
           {
@@ -293,12 +133,11 @@
               "Gimana kalo saldo pembayaran lebih dari yang ditagih?"
             ],
             "responses": [
-              "Jika Anda menggunakan bank lain, lakukan transfer antar-bank melalui ATM Bersama, Prima, atau internet/mobile banking dengan memasukkan kode bank OCBC NISP (028), diikuti nomor VA dan jumlah pembayaran yang diinginkan. Pastikan untuk memeriksa kembali semua detail transaksi sebelum mengonfirmasi.",
-              "Untuk pembayaran melalui bank lain, Anda bisa menggunakan ATM Bersama, Prima, atau internet/mobile banking. Masukkan kode bank OCBC NISP (028), nomor VA, dan jumlah pembayaran yang diinginkan. Periksa kembali detail transaksi sebelum mengonfirmasi.",
-              "Anda dapat melakukan transfer antar-bank melalui ATM Bersama, Prima, atau internet/mobile banking dengan memasukkan kode bank OCBC NISP (028), nomor VA, dan jumlah pembayaran. Pastikan semua detail transaksi benar sebelum mengonfirmasi.",
-              "Jika menggunakan bank lain, lakukan transfer antar-bank melalui ATM Bersama, Prima, atau internet/mobile banking. Masukkan kode bank OCBC NISP (028), nomor VA, dan jumlah pembayaran. Periksa kembali detail transaksi sebelum mengonfirmasi.",
-              "Untuk pembayaran melalui bank lain, gunakan ATM Bersama, Prima, atau internet/mobile banking. Masukkan kode bank OCBC NISP (028), nomor VA, dan jumlah pembayaran. Pastikan semua detail transaksi benar sebelum mengonfirmasi.",
-              "Jika jumlah yang dibayarkan melebihi tagihan, sisa dana akan tercatat sebagai deposit untuk pembayaran berikutnya. Pastikan untuk memeriksa kembali semua detail transaksi sebelum mengonfirmasi."
+              "Berikut adalah panduan pembayaran biaya kuliah melalui *Mobile Banking OCBC NISP*:\n\n1️⃣ Buka aplikasi *OCBC NISP* dan login.\n2️⃣ Pilih menu *Pembayaran Tagihan* atau *Virtual Account*.\n3️⃣ Masukkan *Nomor Virtual Account (VA)* 16 digit yang disediakan oleh kampus.\n4️⃣ Masukkan *nominal pembayaran* sesuai tagihan.\n5️⃣ Periksa ulang detail transaksi untuk memastikan nomor VA dan nominal benar.\n6️⃣ Setelah yakin, konfirmasikan pembayaran.\n\n_Pastikan untuk menyimpan bukti transaksi sebagai tanda bukti pembayaran yang sah._",
+          
+              "Langkah-langkah pembayaran biaya kuliah menggunakan *OCBC NISP Mobile Banking*:\n\n1. Login ke aplikasi mobile banking *OCBC NISP*.\n2. Pilih menu *Pembayaran Tagihan* atau *Virtual Account*.\n3. Masukkan *nomor Virtual Account (VA)* 16 digit dan *nominal pembayaran*.\n4. Periksa kembali semua detail transaksi.\n5. Jika sudah benar, selesaikan pembayaran.\n\n📝 *Simpan bukti transaksi* yang muncul untuk referensi atau bukti pembayaran.",
+          
+              "Untuk membayar biaya kuliah via *Mobile Banking OCBC NISP*:\n\n• Login ke aplikasi OCBC NISP.\n• Pilih *Pembayaran Tagihan* atau *Virtual Account*.\n• Masukkan nomor *Virtual Account (VA)* dan nominal pembayaran.\n• Cek kembali informasi sebelum mengonfirmasi transaksi.\n\n_Jangan lupa simpan bukti transaksi sebagai tanda bukti pembayaran._"
             ]
           },
           {
@@ -310,8 +149,11 @@
               "Apa yang bisa kamu bantu tentang pembayaran kuliah?"
             ],
             "responses": [
-              "Untuk melakukan pembayaran, Anda bisa menggunakan berbagai metode seperti ATM, mobile banking, internet banking, atau melalui cabang bank OCBC. Jangan lupa pastikan nomor VA dan jumlah yang ingin dibayarkan sudah benar.",
-              "Nomor Virtual Account Anda biasanya merupakan kombinasi dari nomor rekening yang mencakup NPM (Nomor Pokok Mahasiswa). Selalu pastikan informasi ini akurat untuk menghindari masalah dalam pembayaran."
+              "Untuk pembayaran biaya kuliah melalui mobile banking dari bank lain:\n\n1️⃣ Masuk ke aplikasi *mobile banking* bank Anda.\n2️⃣ Pilih menu *Transfer Antar-Bank* atau *Pembayaran Tagihan* (sesuai dengan menu yang tersedia).\n3️⃣ Masukkan kode bank OCBC NISP, yaitu *028*.\n4️⃣ Masukkan nomor *Virtual Account (VA)* yang diberikan oleh kampus beserta jumlah yang akan dibayarkan.\n5️⃣ Pastikan seluruh detail transaksi sudah benar sebelum melakukan konfirmasi.\n\nJika pembayaran melebihi jumlah yang ditagih, sisa dana akan tercatat sebagai deposit untuk pembayaran berikutnya.",
+          
+              "Langkah transfer antar bank untuk biaya kampus melalui mobile banking:\n\n• Buka aplikasi *mobile banking*.\n• Pilih *Transfer Antar-Bank*.\n• Masukkan kode bank *OCBC NISP* (028) dan nomor *Virtual Account* kampus.\n• Pastikan nominal pembayaran dan detail lainnya sudah benar.\n• Konfirmasi transaksi.\n\nJika jumlah yang dibayarkan melebihi tagihan, sisa dana akan tercatat sebagai deposit untuk pembayaran berikutnya.",
+          
+              "Cara membayar uang kuliah lewat mobile banking:\n\n1. Masuk ke menu *Transfer Antar-Bank* pada aplikasi mobile banking.\n2. Masukkan kode bank OCBC NISP (028) dan nomor *Virtual Account (VA)* kampus.\n3. Masukkan jumlah pembayaran yang sesuai.\n4. Periksa kembali detail transaksi untuk memastikan semuanya benar.\n5. Konfirmasi transaksi dan simpan bukti pembayaran."
             ]
           }
         ]
@@ -331,9 +173,11 @@
               "Apa saja yang diperlukan untuk mendapatkan Beasiswa Insan Mandiri?"
             ],
             "responses": [
-              "Beasiswa Insan Mandiri ditujukan untuk mahasiswa dari keluarga kurang mampu. Beasiswa ini mencakup 100% potongan biaya SPP dan kuliah, serta kewajiban untuk magang di universitas.",
-              "Beasiswa Insan Mandiri adalah beasiswa untuk mahasiswa dari keluarga kurang mampu, memberikan potongan biaya kuliah dan SPP hingga 100%, dengan syarat untuk melaksanakan magang di universitas.",
-              "Untuk mendapatkan Beasiswa Insan Mandiri, Anda harus berasal dari keluarga kurang mampu dan diwajibkan untuk magang di universitas. Beasiswa ini mencakup potongan biaya SPP dan kuliah hingga 100%."
+                "Beasiswa *Insan Mandiri* diperuntukkan bagi mahasiswa yang berasal dari keluarga kurang mampu secara ekonomi. \n\n*Beasiswa ini memberikan potongan biaya kuliah dan SPP hingga 100%*, serta kewajiban untuk mengikuti program *magang* di universitas selama masa studi. Program ini bertujuan untuk membantu mahasiswa yang berprestasi namun terbatas dari segi finansial.",
+                
+                "Untuk mendapatkan *Beasiswa Insan Mandiri*, mahasiswa harus memenuhi kriteria sebagai individu dari keluarga kurang mampu. \n\n*Beasiswa ini akan mencakup seluruh biaya kuliah dan SPP*, namun penerima beasiswa diwajibkan untuk mengikuti program *magang* di lingkungan universitas. Proses seleksi didasarkan pada kebutuhan finansial serta prestasi akademik mahasiswa.",
+                
+                "Beasiswa *Insan Mandiri* di UIB dirancang untuk mahasiswa yang membutuhkan bantuan biaya pendidikan. \n\nSelain mendapatkan potongan biaya kuliah dan SPP 100%, penerima beasiswa ini juga harus melaksanakan kewajiban *magang* di universitas sebagai bagian dari program. Dengan adanya beasiswa ini, diharapkan mahasiswa yang kurang mampu dapat terus melanjutkan pendidikan tinggi tanpa beban biaya."
             ]
           },
           {
@@ -348,24 +192,28 @@
               "Apa syarat untuk mendapatkan Beasiswa Cemerlang di UIB?"
             ],
             "responses": [
-              "Beasiswa Cemerlang di UIB ditujukan untuk mahasiswa dengan nilai UN > 8.50 dan prestasi di tingkat provinsi. Beasiswa ini memberikan potongan biaya kuliah dan SPP hingga 100%.",
-              "Beasiswa Cemerlang dapat diperoleh oleh mahasiswa dengan nilai rata-rata UN minimal 8.50 dan memiliki prestasi di tingkat provinsi, yang memberikan potongan biaya kuliah dan SPP hingga 100%.",
-              "Untuk mendapatkan Beasiswa Cemerlang, Anda harus memiliki nilai UN minimal 8.50 dan menunjukkan prestasi di tingkat provinsi. Beasiswa ini mencakup potongan biaya kuliah dan SPP sebesar 100%."
+                "Beasiswa *Cemerlang* di UIB ditujukan untuk mahasiswa yang memiliki *nilai UN* lebih dari *8.50* dan memiliki prestasi di tingkat *provinsi*. \n\n*Beasiswa ini memberikan potongan biaya kuliah dan SPP hingga 100%*, sehingga membantu mahasiswa yang berprestasi namun membutuhkan bantuan biaya pendidikan.",
+                
+                "Untuk mendapatkan *Beasiswa Cemerlang*, mahasiswa harus memiliki *nilai UN minimal 8.50* dan menunjukkan *prestasi* di tingkat *provinsi*. \n\nBeasiswa ini memberikan potongan biaya kuliah dan SPP *100%*. Penerima beasiswa ini diharapkan dapat mempertahankan prestasi akademiknya selama masa studi.",
+                
+                "Beasiswa *Cemerlang* di UIB diberikan kepada mahasiswa yang memiliki nilai UN lebih dari *8.50* serta prestasi di tingkat *provinsi*. \n\n*Beasiswa ini mencakup potongan biaya kuliah dan SPP hingga 100%*, dengan tujuan untuk mendorong mahasiswa berprestasi agar terus berkembang dalam pendidikan tinggi."
             ]
           },
           {
             "tag": "beasiswa_jenis_utama",
             "patterns": [
-              "Apa saja beasiswa yang ada di UIB?",
+              "Apa saja beasiswa di UIB?",
               "Beasiswa apa yang tersedia di UIB untuk mahasiswa baru?",
-              "Apa perbedaan antara Beasiswa Cemerlang dan Insan Mandiri?",
+              "beasiswa apa saja yang ada di uib",
               "Beasiswa di UIB itu apa aja?",
               "Apa saja jenis beasiswa yang ditawarkan UIB?"
             ],
             "responses": [
-              "UIB menyediakan dua jenis beasiswa utama untuk mahasiswa baru: Beasiswa Cemerlang dan Beasiswa Insan Mandiri. Beasiswa Cemerlang diberikan untuk mahasiswa dengan prestasi akademik tinggi, sedangkan Beasiswa Insan Mandiri ditujukan untuk mahasiswa dari keluarga kurang mampu.",
-              "Di UIB, ada dua beasiswa utama: Beasiswa Cemerlang untuk mahasiswa berprestasi tinggi dan Beasiswa Insan Mandiri untuk mahasiswa dari keluarga kurang mampu. Kedua beasiswa ini menawarkan potongan biaya kuliah dan SPP hingga 100%.",
-              "Beasiswa Cemerlang di UIB diberikan kepada mahasiswa dengan nilai UN lebih dari 8.50 dan prestasi akademik di tingkat provinsi, sementara Beasiswa Insan Mandiri ditujukan untuk mahasiswa dari keluarga kurang mampu, dengan kewajiban magang di universitas."
+              "UIB menyediakan dua jenis *beasiswa utama* yang ditujukan untuk mahasiswa baru, yaitu: \n- *Beasiswa Cemerlang*, yang diperuntukkan bagi mahasiswa yang memiliki prestasi akademik yang sangat tinggi dan berprestasi di tingkat provinsi atau lebih tinggi, serta \n- *Beasiswa Insan Mandiri*, yang ditujukan untuk mahasiswa dari keluarga kurang mampu secara finansial.\n\n*Beasiswa Cemerlang* memberikan potongan biaya kuliah dan SPP hingga *100%* bagi mahasiswa yang memenuhi syarat, seperti memiliki nilai *UN* di atas *8.50*. Sementara itu, *Beasiswa Insan Mandiri* memberikan dukungan biaya kuliah dan SPP penuh untuk mahasiswa yang membutuhkan, dengan syarat tambahan berupa kewajiban untuk mengikuti program *magang di universitas*. Beasiswa ini bertujuan untuk membantu mahasiswa yang kurang mampu agar tetap dapat melanjutkan pendidikan tinggi mereka.",
+              
+              "Di *UIB*, tersedia dua jenis *beasiswa utama* yang masing-masing memiliki kriteria dan tujuan yang berbeda.\n\nPertama, *Beasiswa Cemerlang*, yang ditujukan untuk mahasiswa dengan prestasi akademik luar biasa, yaitu mereka yang memiliki nilai *UN* minimal *8.50* dan menunjukkan prestasi di tingkat *provinsi* atau lebih tinggi. Beasiswa ini memberikan potongan biaya kuliah dan SPP hingga *100%*.\n\nKedua, *Beasiswa Insan Mandiri*, yang diperuntukkan bagi mahasiswa yang berasal dari keluarga kurang mampu secara ekonomi. Beasiswa ini tidak hanya memberikan bantuan biaya kuliah dan SPP penuh, tetapi juga mewajibkan penerima beasiswa untuk mengikuti program *magang di universitas*, sebagai bagian dari pengembangan keterampilan dan pengalaman kerja mereka selama masa studi.",
+              
+              "Beasiswa *Cemerlang* di *UIB* diberikan kepada mahasiswa yang memiliki prestasi akademik sangat baik, yakni mereka yang memiliki nilai *UN* lebih dari *8.50* dan telah menunjukkan prestasi di tingkat *provinsi*. Beasiswa ini memberikan potongan biaya kuliah dan SPP hingga *100%* untuk mahasiswa yang memenuhi persyaratan tersebut.\n\nDi sisi lain, *Beasiswa Insan Mandiri* ditujukan untuk mahasiswa dari keluarga kurang mampu secara ekonomi, dengan tujuan untuk membantu mereka yang kesulitan dalam pembiayaan kuliah. Beasiswa ini juga mencakup *magang di universitas* sebagai syarat untuk penerima, yang bertujuan agar mahasiswa tersebut bisa memperoleh pengalaman praktis di dunia kerja.\n\nKedua beasiswa ini memiliki dampak yang signifikan dalam mendukung keberlanjutan pendidikan tinggi bagi mahasiswa di UIB."
             ]
           }
         ]
@@ -385,8 +233,9 @@
               "Apa yang harus dilakukan untuk daftar online di UIB?"
             ],
             "responses": [
-              "Untuk daftar online di UIB, kunjungi situs resmi UIB dan lengkapi semua dokumen yang diperlukan. Setelah pendaftaran, Anda akan diundang ke grup WhatsApp untuk informasi lebih lanjut.",
-              "Anda bisa daftar online di UIB melalui situs resmi UIB. Setelah mengirim dokumen, Anda akan diundang ke grup WhatsApp untuk informasi lebih lanjut."
+              "Untuk daftar online di UIB, Anda dapat mengunjungi situs resmi pendaftaran di [https://pendaftaran.uib.ac.id](https://pendaftaran.uib.ac.id). Lengkapi semua dokumen yang diperlukan, seperti *foto diri*, *ijazah*, dan *surat keterangan lainnya*. \n\nSetelah pendaftaran berhasil, Anda akan menerima undangan untuk bergabung dengan grup WhatsApp yang memberikan informasi lebih lanjut mengenai *jadwal tes* dan *proses selanjutnya*.",
+          
+              "Anda dapat mendaftar online di UIB melalui situs resmi pendaftaran di [https://pendaftaran.uib.ac.id](https://pendaftaran.uib.ac.id). Setelah mengirimkan semua dokumen yang diperlukan melalui situs tersebut, Anda akan diundang untuk bergabung dalam grup WhatsApp. \n\nDi grup ini, Anda akan mendapatkan informasi lebih lanjut terkait *proses seleksi*, *jadwal ujian*, dan *pengumuman hasil*."
             ]
           },
           {
@@ -399,33 +248,37 @@
               "Biaya pendaftaran di UIB berapa?"
             ],
             "responses": [
-              "Biaya daftar online di UIB adalah Rp 500.000. Setelah pendaftaran, Anda akan diundang ke grup WhatsApp untuk informasi lebih lanjut.",
-              "Biaya daftar ulang setelah diterima di UIB adalah minimal Rp 2.500.000 untuk jenjang Sarjana. Pastikan untuk memperhatikan tenggat waktu pembayaran."
+              "Biaya pendaftaran online di UIB adalah *Rp 500.000*. Setelah Anda menyelesaikan pendaftaran, Anda akan diundang ke grup WhatsApp untuk mendapatkan informasi lebih lanjut mengenai proses selanjutnya. Untuk biaya daftar ulang setelah diterima di UIB, untuk jenjang Sarjana, jumlah yang harus dibayar adalah minimal *Rp 2.500.000*. Jangan lupa untuk memperhatikan tenggat waktu pembayaran agar tidak terjadi keterlambatan.\n\nJika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan, Anda dapat menghubungi *Humas UIB* melalui LINE Pusat Informasi UIB atau menghubungi *Whatsapp BAAK*.",
+              
+              "Untuk biaya pendaftaran online di UIB, Anda akan dikenakan biaya *Rp 500.000*. Setelah Anda melakukan pendaftaran, Anda akan mendapatkan undangan untuk bergabung ke grup WhatsApp yang akan memberikan detail informasi lebih lanjut. Setelah diterima, biaya untuk daftar ulang pada jenjang Sarjana adalah minimal *Rp 2.500.000*, dan Anda perlu memperhatikan tenggat waktu pembayaran agar prosesnya lancar.\n\nJika ada pertanyaan atau Anda membutuhkan bantuan, Anda dapat menghubungi *Humas UIB* melalui LINE Pusat Informasi UIB atau menghubungi *Whatsapp BAAK* untuk bantuan lebih lanjut."
             ]
           },
           {
-            "tag": "jadwal_ujian",
+            "tag": "jadwal_ujian_saringan_masuk",
             "patterns": [
-              "Kapan saya akan diundang untuk ujian setelah daftar online?",
-              "Kapan ada info ujian setelah daftar online?",
-              "Kapan dapat undangan ujian setelah daftar online?",
-              "Setelah daftar online, kapan tahu jadwal ujian?"
+              "Kapan ujian saringan masuk setelah saya daftar online?",
+              "Kapan jadwal ujian saringan masuk diumumkan?",
+              "Kapan saya bisa mendapatkan info ujian saringan masuk?",
+              "Kapan jadwal ujian saringan masuk keluar setelah pendaftaran?"
             ],
             "responses": [
-              "Setelah melengkapi pendaftaran online, Anda akan mendapatkan informasi melalui grup WhatsApp tentang ujian saringan masuk. Pastikan untuk bergabung dan aktif berkomunikasi di sana."
+                "Setelah Anda melengkapi pendaftaran online, informasi terkait ujian saringan masuk akan disampaikan melalui grup WhatsApp resmi yang telah disediakan oleh pihak universitas. Di dalam grup tersebut, Anda akan mendapatkan pengumuman mengenai tanggal, waktu, dan prosedur ujian dengan jelas.\n\nPastikan Anda memantau grup WhatsApp secara rutin, karena semua informasi terkini dan detail ujian akan diinformasikan di sana. Jangan sampai terlewatkan agar Anda dapat mempersiapkan diri dengan baik sebelum ujian dimulai.",
+              
+                "Jadwal ujian saringan masuk akan diumumkan melalui grup WhatsApp setelah pendaftaran Anda selesai. Pengumuman ini mencakup semua detail yang perlu Anda ketahui tentang ujian, termasuk waktu dan lokasi ujian yang telah ditentukan.\n\nPastikan untuk selalu memantau pengumuman di grup WhatsApp yang telah disediakan untuk informasi lebih lanjut. Dengan terus memperhatikan pengumuman, Anda bisa memastikan tidak ada informasi penting yang terlewat."
             ]
-          },
+          }, 
           {
-            "tag": "pendaftaran_ulang",
+            "tag": "pendaftaran_ulang_selesai_lulus_ujian_saringan_masuk",
             "patterns": [
-              "Bagaimana proses daftar ulang setelah dinyatakan lulus?",
-              "Cara daftar ulang setelah lulus gimana?",
-              "Setelah lulus, proses daftar ulangnya gimana?",
-              "Kapan saya harus bayar untuk daftar ulang?"
+              "Bagaimana proses daftar ulang setelah lulus ujian saringan masuk?",
+              "Cara daftar ulang setelah lulus ujian saringan masuk gimana?",
+              "Setelah lulus ujian saringan masuk, proses daftar ulangnya gimana?",
+              "Kapan saya harus bayar untuk daftar ulang setelah ujian saringan masuk?"
             ],
             "responses": [
-              "Setelah dinyatakan lulus, daftar ulang dapat dilakukan dengan membayar minimal Rp 2.500.000 untuk program Sarjana, atau sesuai biaya satu semester untuk program Magister. Pastikan untuk memperhatikan tenggat waktu yang ditetapkan.",
-              "Proses daftar ulang bagi mahasiswa yang lulus melibatkan pembayaran yang harus dilakukan sebelum batas waktu yang telah ditentukan. Pastikan Anda mempersiapkan dana sesuai dengan ketentuan yang berlaku."
+                "Setelah dinyatakan lulus ujian saringan masuk, proses daftar ulang dilakukan dengan membayar minimal Rp 2.500.000 untuk program *Sarjana* atau sesuai biaya satu semester untuk program *Magister*. Pembayaran ini harus dilakukan sebelum tenggat waktu yang telah ditentukan oleh universitas.\n\nPerlu diingat bahwa biaya kuliah dapat berubah sesuai dengan kebijakan yang berlaku di *UIB*. Pastikan Anda memeriksa informasi terbaru mengenai biaya dan tenggat waktu yang ditetapkan. Untuk pertanyaan lebih lanjut, Anda bisa menghubungi pihak administrasi melalui WhatsApp *BAAK*.",
+              
+                "Proses daftar ulang setelah lulus ujian saringan masuk melibatkan pembayaran yang harus dilakukan sebelum batas waktu yang telah ditentukan. Biaya yang dibayarkan adalah Rp 2.500.000 untuk program *Sarjana* atau sesuai biaya satu semester untuk program *Magister*.\n\nHarap dicatat bahwa biaya kuliah bisa berubah dari tahun ke tahun, jadi pastikan Anda memeriksa informasi terbaru melalui grup WhatsApp atau situs resmi *UIB* untuk memastikan jumlah yang tepat."
             ]
           }
         ]
@@ -443,9 +296,9 @@
               "Jurusan apa saja yang ada di UIB untuk sarjana?"
             ],
             "responses": [
-              "UIB menawarkan berbagai program studi Sarjana seperti Teknik Sipil, Arsitektur, Sistem Informasi, Teknologi Informasi, Manajemen, Akuntansi, Ilmu Hukum, dan Pendidikan Bahasa Inggris.",
-              "Untuk jenjang Sarjana, UIB memiliki program studi seperti Teknik Sipil, Arsitektur, Sistem Informasi, Teknologi Informasi, Manajemen, Akuntansi, Ilmu Hukum, dan Pendidikan Bahasa Inggris.",
-              "Anda bisa memilih program studi Sarjana di UIB seperti Teknik Sipil, Arsitektur, Sistem Informasi, Teknologi Informasi, Manajemen, Akuntansi, Ilmu Hukum, dan Pendidikan Bahasa Inggris."
+                "*UIB* menawarkan berbagai program studi *Sarjana* di berbagai bidang, di antaranya: *Teknik Sipil*, *Arsitektur*, *Sistem Informasi*, *Teknologi Informasi*, *Manajemen*, *Akuntansi*, *Ilmu Hukum*, dan *Pendidikan Bahasa Inggris*.\n\nSetiap program studi di *UIB* dirancang untuk memberikan pendidikan yang mendalam dan relevan dengan perkembangan industri dan kebutuhan masyarakat.",
+              
+                "Untuk jenjang *Sarjana*, *UIB* menyediakan pilihan program studi yang beragam, seperti *Teknik Sipil*, *Arsitektur*, *Sistem Informasi*, *Teknologi Informasi*, *Manajemen*, *Akuntansi*, *Ilmu Hukum*, dan *Pendidikan Bahasa Inggris*.\n\nDengan berbagai pilihan jurusan tersebut, Anda dapat memilih program studi yang sesuai dengan minat dan tujuan karier Anda di masa depan."
             ]
           },
           {
@@ -458,9 +311,24 @@
               "Jurusan apa saja yang ada di UIB untuk magister?"
             ],
             "responses": [
-              "Untuk program Magister, UIB menawarkan Magister Hukum dan Magister Manajemen.",
-              "UIB menyediakan program Magister Hukum dan Magister Manajemen untuk jenjang Magister.",
-              "Anda bisa memilih program Magister Hukum dan Magister Manajemen di UIB."
+                "Untuk jenjang *Magister*, *UIB* menawarkan dua program studi utama yaitu: *Magister Hukum* dan *Magister Manajemen*.\n\nKedua program ini dirancang untuk memberikan pemahaman mendalam dan keterampilan praktis di bidang hukum dan manajemen, yang dapat menunjang karier profesional Anda di tingkat yang lebih tinggi.",
+              
+                "*UIB* menyediakan pilihan program *Magister* yang terdiri dari *Magister Hukum* dan *Magister Manajemen*.\n\nDengan fokus pada pengembangan keahlian profesional, kedua program ini membantu Anda untuk memperoleh wawasan yang lebih luas dan keterampilan yang relevan dengan tuntutan dunia kerja saat ini."
+            ]
+          },
+          {
+            "tag": "jurusan_di_uib",
+            "patterns": [
+              "Apa saja jurusan yang tersedia di UIB?",
+              "Ada jurusan apa di UIB?",
+              "Apa pilihan jurusan di UIB?",
+              "Jurusan apa yang ditawarkan oleh UIB?",
+              "Apa saja program studi di UIB?"
+            ],
+            "responses": [
+                "Di *UIB*, tersedia berbagai program studi untuk jenjang *Sarjana* dan *Magister*. Untuk jenjang Sarjana, Anda bisa memilih program seperti *Teknik Sipil*, *Arsitektur*, *Sistem Informasi*, *Teknologi Informasi*, *Manajemen*, *Akuntansi*, *Ilmu Hukum*, dan *Pendidikan Bahasa Inggris*.\n\nUntuk jenjang *Magister*, *UIB* menawarkan *Magister Hukum* dan *Magister Manajemen*, yang dirancang untuk memberikan wawasan mendalam di bidang hukum dan manajemen.",
+              
+                "*UIB* menawarkan beragam pilihan program studi di jenjang *Sarjana* dan *Magister*. Untuk program *Sarjana*, pilihan jurusannya antara lain *Teknik Sipil*, *Arsitektur*, *Sistem Informasi*, *Teknologi Informasi*, *Manajemen*, *Akuntansi*, *Ilmu Hukum*, dan *Pendidikan Bahasa Inggris*.\n\nSedangkan untuk program *Magister*, tersedia *Magister Hukum* dan *Magister Manajemen*, yang bertujuan untuk mempersiapkan Anda dengan keterampilan dan pengetahuan di bidang yang lebih spesifik."
             ]
           },
           {
@@ -473,9 +341,11 @@
               "Apa saja jurusan teknologi di UIB?"
             ],
             "responses": [
-              "Jika Anda tertarik pada bidang teknologi, UIB memiliki program Sistem Informasi dan Teknologi Informasi yang dapat menjadi pilihan tepat.",
-              "UIB menawarkan program studi Sistem Informasi dan Teknologi Informasi untuk Anda yang tertarik di bidang teknologi.",
-              "Anda bisa memilih program Sistem Informasi dan Teknologi Informasi di UIB jika tertarik pada bidang teknologi."
+                "Jika Anda tertarik pada bidang teknologi, *UIB* memiliki program *Sistem Informasi* dan *Teknologi Informasi* yang dapat menjadi pilihan tepat. \n\nKedua program ini dirancang untuk memberikan pemahaman mendalam mengenai teknologi dan aplikasinya dalam dunia profesional.",
+              
+                "*UIB* menawarkan program studi *Sistem Informasi* dan *Teknologi Informasi* bagi Anda yang memiliki minat di bidang teknologi. \n\nProgram-program ini menggabungkan teori dan praktik yang dibutuhkan dalam dunia industri teknologi yang terus berkembang.",
+              
+                "Jika bidang teknologi menarik bagi Anda, di *UIB* terdapat dua program studi utama yang dapat dipilih: *Sistem Informasi* dan *Teknologi Informasi*. \n\nKedua program ini akan membekali Anda dengan keterampilan yang relevan untuk berkarier di dunia teknologi."
             ]
           },
           {
@@ -488,9 +358,11 @@
               "Apa saja jurusan hukum di UIB?"
             ],
             "responses": [
-              "Bagi calon mahasiswa yang ingin mendalami ilmu hukum, UIB menyediakan program Sarjana Ilmu Hukum dan Magister Hukum sebagai pilihan studi.",
-              "UIB menawarkan program Sarjana Ilmu Hukum dan Magister Hukum untuk Anda yang ingin mendalami ilmu hukum.",
-              "Anda bisa memilih program Sarjana Ilmu Hukum dan Magister Hukum di UIB jika ingin mendalami ilmu hukum."
+                "Bagi calon mahasiswa yang ingin mendalami *ilmu hukum*, *UIB* menyediakan dua program studi unggulan: *Sarjana Ilmu Hukum* dan *Magister Hukum*. \n\nKedua program ini dirancang untuk memberikan pemahaman menyeluruh mengenai hukum dan aplikasinya.",
+              
+                "*UIB* menawarkan program *Sarjana Ilmu Hukum* dan *Magister Hukum* bagi Anda yang memiliki minat mendalam dalam bidang hukum. \n\nProgram ini memberi bekal yang kuat untuk berkarier sebagai profesional hukum.",
+              
+                "Jika Anda ingin mendalami *ilmu hukum*, di *UIB* tersedia pilihan program *Sarjana Ilmu Hukum* dan *Magister Hukum* yang dapat membantu Anda mengembangkan keterampilan dan pengetahuan hukum yang dibutuhkan di dunia profesional."
             ]
           },
           {
@@ -503,9 +375,11 @@
               "Apa saja jurusan manajemen dan akuntansi di UIB?"
             ],
             "responses": [
-              "Universitas ini menawarkan program Sarjana di bidang Manajemen dan Akuntansi untuk mahasiswa yang ingin berkarir di sektor bisnis.",
-              "UIB menyediakan program studi Manajemen dan Akuntansi untuk jenjang Sarjana bagi Anda yang ingin berkarir di sektor bisnis.",
-              "Anda bisa memilih program Manajemen dan Akuntansi di UIB jika ingin berkarir di sektor bisnis."
+                "*UIB* menawarkan program *Sarjana Manajemen* dan *Sarjana Akuntansi* bagi mahasiswa yang ingin membangun karir di sektor *bisnis*. Program ini memberikan keterampilan yang diperlukan untuk menghadapi tantangan di dunia bisnis.",
+              
+                "Di *UIB*, Anda bisa memilih program *Sarjana Manajemen* atau *Sarjana Akuntansi* yang dirancang untuk mempersiapkan Anda berkarir di dunia *bisnis* dan *keuangan*.",
+              
+                "*UIB* menyediakan dua pilihan program *Sarjana Manajemen* dan *Sarjana Akuntansi*, yang cocok bagi Anda yang ingin menekuni dunia *manajemen bisnis* atau *akuntansi*."
             ]
           },
           {
@@ -518,9 +392,11 @@
               "Apa saja jurusan Pendidikan Bahasa Inggris di UIB?"
             ],
             "responses": [
-              "UIB menawarkan program studi Pendidikan Bahasa Inggris untuk jenjang Sarjana. Program ini cocok bagi Anda yang ingin mendalami bahasa Inggris dan berkarir di bidang pendidikan.",
-              "Jika Anda tertarik dengan Pendidikan Bahasa Inggris, UIB memiliki program studi yang dapat menjadi pilihan tepat.",
-              "Anda bisa memilih program Pendidikan Bahasa Inggris di UIB jika ingin mendalami bahasa Inggris dan berkarir di bidang pendidikan."
+                "*UIB* menawarkan program studi *Pendidikan Bahasa Inggris* untuk jenjang Sarjana. Program ini cocok bagi Anda yang ingin mendalami *bahasa Inggris* dan berkarir di bidang *pendidikan*. \n\nJika Anda berminat, program ini menyediakan materi yang komprehensif dan peluang karir yang luas di dunia pendidikan bahasa. Anda dapat mengembangkan keterampilan mengajar dan komunikasi dalam bahasa Inggris.",
+
+                "Jika Anda tertarik dengan *Pendidikan Bahasa Inggris*, *UIB* memiliki program studi yang tepat untuk Anda. Program ini memberikan pengetahuan dan keterampilan dalam bahasa Inggris serta pendidikan yang dapat membantu Anda menjadi pengajar bahasa Inggris yang handal. \n\nDengan memilih program ini, Anda akan mendapatkan pemahaman mendalam mengenai bahasa Inggris dan cara mengajarkannya dengan efektif kepada orang lain.",
+
+                "Program *Pendidikan Bahasa Inggris* di *UIB* adalah pilihan tepat bagi Anda yang ingin mengejar karir di bidang pendidikan bahasa Inggris. Program studi ini meliputi berbagai aspek dari bahasa Inggris, mulai dari tata bahasa, literatur, hingga metodologi pengajaran. \n\nUIB menyediakan lingkungan belajar yang mendukung untuk memperdalam keterampilan bahasa dan mengembangkan kemampuan mengajar yang efektif."
             ]
           },
           {
@@ -533,10 +409,8 @@
               "Apa saja jurusan Arsitektur dan Teknik Sipil di UIB?"
             ],
             "responses": [
-              "UIB menawarkan program studi Arsitektur dan Teknik Sipil untuk jenjang Sarjana. Program ini cocok bagi Anda yang ingin berkarir di bidang konstruksi dan desain bangunan.",
-              "Jika Anda tertarik dengan Arsitektur atau Teknik Sipil, UIB memiliki program studi yang dapat menjadi pilihan tepat.",
-              "Anda bisa memilih program Arsitektur dan Teknik Sipil di UIB jika ingin berkarir di bidang konstruksi dan desain bangunan."
-            ]
+                  "*UIB* menawarkan program studi *Arsitektur* dan *Teknik Sipil* untuk jenjang *Sarjana*. Program ini cocok bagi Anda yang ingin berkarir di bidang *konstruksi* dan *desain bangunan*. \n\nJika Anda tertarik untuk mendalami bidang ini, *UIB* menyediakan program studi yang memadukan teori dan praktik dalam merancang dan membangun infrastruktur. Anda akan dipersiapkan untuk menghadapi berbagai tantangan dalam dunia konstruksi dan pembangunan. \n\nMelalui program studi ini, Anda akan mendapatkan pengetahuan mendalam mengenai *arsitektur* serta *teknik sipil* yang diperlukan untuk berkarir di industri konstruksi, baik dalam merancang bangunan maupun mengelola proyek konstruksi dengan efektif."
+              ]
           }
         ]
       },
@@ -551,20 +425,9 @@
             "Apa saja langkah yang harus diambil untuk menyewa ruangan di UIB?"
           ],
           "responses": [
-            "Untuk menyewa ruangan di UIB, ajukan surat permohonan yang berisi detail kegiatan, tanggal, dan ruangan yang dibutuhkan kepada Humas. Humas akan mengurus pengajuan Anda.",
-            "Untuk menyewa ruangan di UIB, Anda harus mengajukan surat pengajuan sewa yang mencakup detail kegiatan dan jadwal, ditujukan kepada Humas. Setelah itu, pengajuan Anda akan diteruskan ke bagian umum.",
-            "Untuk mengajukan penyewaan ruangan, kirimkan surat pengajuan sewa yang menjelaskan detail kegiatan Anda kepada Humas, dan mereka akan mengurus pengajuan Anda ke bagian terkait."
-          ]
-        },
-        {
-          "tag": "biaya_sewa_ruangan",
-          "patterns": [
-            "Berapa biaya sewa ruangan di UIB?",
-            "Bagaimana informasi mengenai biaya sewa ruangan di UIB?"
-          ],
-          "responses": [
-            "Setelah permohonan diterima, Anda akan menerima konfirmasi terkait biaya dan detail lainnya dalam waktu 3 hari kerja.",
-            "Setelah pengajuan diterima, Anda akan mendapatkan konfirmasi mengenai biaya dan informasi lainnya dalam waktu maksimum 3 hari kerja. Jika Anda setuju, Humas akan menyiapkan quotation untuk langkah selanjutnya."
+              "Untuk menyewa ruangan di UIB, Anda perlu mengajukan surat permohonan yang mencakup *kegiatan*, *tanggal*, dan *ruangan* yang dibutuhkan. \n\nSurat permohonan tersebut ditujukan kepada *Humas*, yang akan memproses pengajuan Anda dan meneruskan ke bagian umum untuk penjadwalan dan pengaturan penggunaan ruangan.",
+              
+              "Proses penyewaan ruangan di UIB dimulai dengan mengajukan surat permohonan sewa yang mencantumkan *detail kegiatan*, *tanggal*, dan *ruangan* yang diperlukan. \n\nPermohonan Anda akan diproses oleh *Humas*, yang kemudian akan meneruskan ke bagian umum untuk verifikasi dan penjadwalan ruangan."
           ]
         },
         {
@@ -574,8 +437,9 @@
             "Bagaimana cara menyewa stall kantin di UIB?"
           ],
           "responses": [
-            "Jika Anda berencana untuk menyewa stall kantin, Anda perlu mengajukan proposal yang akan diteruskan ke Humas, lalu mereka akan berkoordinasi dengan Biro BAUK untuk konfirmasi penyewaan.",
-            "Jika Anda ingin menyewa stall di kantin, ajukan proposal yang ditujukan kepada Humas. Mereka akan berkoordinasi dengan Biro BAUK untuk memastikan penyewaan dapat dilakukan."
+              "Untuk menyewa stall kantin di UIB, Anda perlu mengajukan proposal yang mencakup detail kegiatan dan kebutuhan Anda. Proposal ini akan diteruskan ke *Humas*, yang kemudian akan berkoordinasi dengan *Biro BAUK* untuk memastikan penyewaan dapat dilakukan.",
+              
+              "Proses penyewaan stall kantin dimulai dengan mengajukan proposal yang ditujukan kepada *Humas*. Setelah itu, *Humas* akan berkoordinasi dengan *Biro BAUK* untuk memastikan bahwa penyewaan stall dapat disetujui dan disiapkan sesuai kebutuhan Anda."
           ]
         }
       ]
@@ -591,22 +455,9 @@
             "Bagaimana prosedur memasang brosur di UIB?"
           ],
           "responses": [
-            "Untuk memasang brosur, Anda perlu mengajukan permohonan kepada Humas, baik dalam bentuk softcopy maupun hardcopy. Permohonan ini akan diteruskan ke BPKA untuk proses lebih lanjut.",
-            "Brosur yang Anda pasang akan ditampilkan di mading dan juga diunggah di website UIB. Pastikan semua detail pengajuan Anda jelas dan lengkap.",
-            "Ajukan permohonan ke Humas untuk penitipan brosur. Jika jumlah brosur lebih dari 30 lembar, akan dikenakan biaya tambahan sebesar Rp 1.000,- per lembar."
-          ]
-        },
-        {
-          "tag": "biaya_pemasangan_brosur",
-          "patterns": [
-            "Berapa biaya untuk memasang brosur lebih dari 30 lembar di UIB?",
-            "Ada biaya tambahan jika memasang lebih dari 30 brosur di UIB?",
-            "Biaya pemasangan brosur di UIB?"
-          ],
-          "responses": [
-            "Jika jumlah brosur lebih dari 30 lembar, akan dikenakan biaya tambahan sebesar Rp 1.000,- per lembar.",
-            "Biaya pemasangan brosur lebih dari 30 lembar di UIB adalah Rp 1.000,- per lembar. Pastikan Anda menyertakan detail jumlah brosur dalam permohonan.",
-            "Untuk memasang brosur di UIB, jika jumlahnya lebih dari 30 lembar, akan dikenakan biaya Rp 1.000,- per lembar."
+              "Untuk memasang brosur di mading UIB, Anda perlu mengajukan permohonan kepada *Humas*. Permohonan dapat berupa *softcopy* atau *hardcopy*, yang kemudian akan diteruskan ke *BPKA* untuk diproses lebih lanjut. Selain itu, brosur yang disetujui juga akan diunggah di website UIB.",
+              
+              "Ajukan permohonan kepada *Humas* untuk penitipan brosur, baik dalam bentuk *softcopy* maupun *hardcopy*. Setelah itu, brosur Anda akan ditampilkan di mading dan juga diunggah ke website UIB. Jika jumlah brosur lebih dari 30 lembar, biaya tambahan sebesar Rp 1.000,- per lembar akan dikenakan."
           ]
         },
         {
@@ -617,9 +468,9 @@
             "Biaya pemasangan spanduk di UIB?"
           ],
           "responses": [
-            "Biaya pemasangan spanduk di UIB adalah Rp 100.000,- per minggu. Pastikan untuk mengajukan permohonan melalui Humas untuk mendapatkan izin dan jadwal pemasangan.",
-            "Untuk memasang spanduk di UIB, Anda perlu mengajukan permohonan melalui Humas. Biaya pemasangan adalah Rp 100.000,- per minggu.",
-            "Biaya untuk pemasangan spanduk di UIB adalah Rp 100.000,- per minggu. Anda harus mengajukan permohonan ke Humas terlebih dahulu untuk mendapatkan izin."
+              "Biaya untuk pemasangan spanduk di kampus UIB adalah *Rp 100.000,- per minggu*. Sebelum memasang spanduk, Anda diwajibkan untuk mengajukan permohonan terlebih dahulu kepada pihak *Humas*. Permohonan tersebut akan diteruskan untuk mendapatkan izin serta penjadwalan pemasangan spanduk yang sesuai dengan ketentuan yang berlaku di kampus.\n\nPastikan Anda menyertakan informasi yang lengkap mengenai waktu dan lokasi pemasangan dalam pengajuan. Setelah permohonan disetujui, Anda akan mendapatkan jadwal pemasangan sesuai dengan kebijakan dan ketersediaan ruang di kampus.",
+              
+              "Jika Anda berencana untuk memasang spanduk di UIB, Anda perlu mengajukan permohonan ke *Humas* terlebih dahulu. Pastikan Anda menyertakan detail mengenai waktu dan lokasi pemasangan. Biaya pemasangan spanduk di UIB adalah *Rp 100.000,- per minggu*. Setelah permohonan disetujui, Anda akan diberikan jadwal pemasangan yang sesuai dengan kebijakan dan ketersediaan ruang di kampus.\n\nJangan lupa untuk memastikan bahwa semua detail permohonan telah lengkap, karena ini akan mempercepat proses persetujuan dan penjadwalan pemasangan."
           ]
         }
       ]
@@ -639,11 +490,11 @@
             "Dimana saya bisa menyetarakan ijazah luar negeri?"
           ],
           "responses": [
-            "Lulusan luar negeri harus menyetarakan ijazah mereka melalui Kemendikbud sebelum mendaftar di UIB, atau mereka bisa mengikuti Ujian Paket C sebagai alternatif.",
-            "Untuk lulusan luar negeri, penyetaraan ijazah dapat dilakukan melalui DIKTI, dan dokumen hasil penyetaraan ini harus dilampirkan saat mendaftar di UIB.",
-            "Proses penyetaraan ijazah untuk lulusan luar negeri dapat dilakukan melalui DIKTI, dan dokumen hasil penyetaraan tersebut harus dilampirkan saat mendaftar di UIB.",
-            "Jika ijazah Anda tidak diakui di Indonesia, Anda bisa mengikuti Ujian Paket C sebagai alternatif penyetaraan ijazah.",
-            "Proses penyetaraan ijazah luar negeri biasanya memakan waktu beberapa minggu hingga beberapa bulan, tergantung pada kelengkapan dokumen dan kebijakan DIKTI."
+            "Jika Anda adalah lulusan luar negeri dan ingin melanjutkan studi di UIB, Anda perlu terlebih dahulu menyetarakan ijazah Anda melalui Kemendikbud, atau sebagai alternatif, mengikuti Ujian Paket C untuk penyetaraan ijazah. \n\nProses ini penting agar ijazah yang Anda miliki dapat diakui secara resmi di Indonesia.",
+            "Bagi lulusan luar negeri, langkah pertama yang perlu dilakukan untuk menyetarakan ijazah adalah mengajukan permohonan ke DIKTI (Direktorat Jenderal Pendidikan Tinggi).\n\n Setelah dokumen penyetaraan disetujui, Anda akan menerima surat keputusan yang harus dilampirkan saat mendaftar ke UIB. Pastikan Anda mengikuti prosedur ini untuk memulai proses pendaftaran.",
+            "Proses penyetaraan ijazah luar negeri dapat dilakukan melalui DIKTI, di mana Anda harus mengumpulkan seluruh dokumen yang diperlukan untuk verifikasi. \n\nSetelah disetujui oleh DIKTI, dokumen penyetaraan ijazah ini wajib dilampirkan pada saat pendaftaran di UIB agar pendaftaran Anda bisa diproses lebih lanjut.",
+            "Jika ijazah Anda tidak diakui di Indonesia, salah satu cara untuk mengatasinya adalah dengan mengikuti Ujian Paket C, yang disediakan oleh pemerintah sebagai alternatif untuk lulusan luar negeri yang kesulitan dalam proses penyetaraan ijazah. \n\nPastikan Anda mengikuti ujian ini agar ijazah Anda diakui di Indonesia.",
+            "Proses penyetaraan ijazah luar negeri biasanya memakan waktu yang bervariasi, mulai dari beberapa minggu hingga beberapa bulan, tergantung pada kelengkapan dokumen yang Anda ajukan dan kebijakan yang berlaku di DIKTI. \n\nOleh karena itu, sangat penting untuk mempersiapkan dokumen Anda dengan lengkap dan mengikuti setiap langkah sesuai prosedur yang ditetapkan."
           ]
         },
         {
@@ -656,10 +507,8 @@
             "Apakah ada tes khusus untuk lulusan luar negeri di UIB?"
           ],
           "responses": [
-            "Lulusan luar negeri yang belum memiliki dokumen penyetaraan ijazah harus mengikuti Ujian Paket C sebagai alternatif.",
-            "Lulusan luar negeri yang mendaftar di UIB mungkin perlu mengikuti ujian bahasa, tergantung program studi yang dipilih. Pastikan Anda memeriksa persyaratan spesifik di website UIB.",
-            "Jika ijazah luar negeri belum disetarakan, Anda perlu mengikuti Ujian Paket C sebagai salah satu syarat untuk mendaftar di UIB.",
-            "Lulusan luar negeri mungkin perlu mengikuti tes tambahan tergantung pada program studi yang dipilih. Pastikan untuk memeriksa persyaratan di website UIB."
+            "Bagi lulusan luar negeri yang belum memiliki dokumen penyetaraan ijazah, salah satu alternatif yang dapat ditempuh adalah mengikuti Ujian Paket C. \n\nUjian ini dirancang untuk membantu menyetarakan ijazah luar negeri dengan standar pendidikan yang berlaku di Indonesia. Setelah mengikuti ujian ini, lulusan luar negeri akan dapat melanjutkan pendaftaran di UIB tanpa kendala yang berarti.",
+            "Selain Ujian Paket C, ada beberapa program studi yang mungkin mengharuskan Anda mengikuti ujian bahasa, tergantung pada bidang studi yang dipilih. \n\nPastikan untuk memeriksa persyaratan spesifik pada setiap program studi melalui website resmi UIB, karena setiap program memiliki kriteria yang berbeda mengenai kemampuan bahasa yang harus dipenuhi."
           ]
         },
         {
@@ -672,10 +521,9 @@
             "Apa saja persyaratan dokumen untuk lulusan luar negeri?"
           ],
           "responses": [
-            "Dokumen yang dibutuhkan untuk pendaftaran lulusan luar negeri antara lain dokumen penyetaraan ijazah atau hasil Ujian Paket C, ijazah, SKHU, dan KTP.",
-            "Pastikan Anda telah memiliki dokumen penyetaraan ijazah atau hasil Ujian Paket C jika ijazah Anda diperoleh dari luar negeri.",
-            "Selain dokumen penyetaraan ijazah, pastikan Anda melengkapi dokumen seperti KTP, ijazah, dan SKHU saat mendaftar di UIB.",
-            "Lulusan luar negeri harus menyiapkan dokumen seperti ijazah, SKHU, KTP, dan dokumen penyetaraan ijazah atau hasil Ujian Paket C."
+              "Untuk mendaftar di UIB sebagai lulusan luar negeri, Anda harus mempersiapkan beberapa dokumen penting. \n\nDokumen yang wajib diserahkan meliputi dokumen penyetaraan ijazah atau hasil Ujian Paket C, serta ijazah dan Surat Keterangan Hasil Ujian (SKHU). Selain itu, *Kartu Tanda Penduduk (KTP)* yang berlaku juga diperlukan untuk keperluan identifikasi. Semua dokumen ini harus lengkap dan sesuai dengan ketentuan yang berlaku.",
+              
+              "Sebelum mengajukan pendaftaran, pastikan Anda telah menyiapkan dokumen penyetaraan ijazah, terutama jika ijazah Anda berasal dari luar negeri. \n\nJika ijazah Anda belum disetarakan, Anda harus menyertakan hasil Ujian Paket C. Selain itu, dokumen lain yang harus dipersiapkan adalah ijazah, SKHU, dan *KTP*. Semua dokumen tersebut harus diserahkan dengan lengkap untuk memperlancar proses pendaftaran di UIB."
           ]
         },
         {
@@ -687,9 +535,10 @@
             "Apa deadline pendaftaran untuk lulusan luar negeri?"
           ],
           "responses": [
-            "Batas waktu pendaftaran untuk lulusan luar negeri di UIB dapat berbeda tergantung pada periode pendaftaran. Pastikan untuk memeriksa website resmi UIB untuk informasi terbaru mengenai tanggal pendaftaran.",
-            "Deadline pendaftaran untuk lulusan luar negeri di UIB bervariasi tergantung pada periode pendaftaran. Cek website resmi UIB untuk informasi terbaru."
-          ]
+            "Batas waktu pendaftaran untuk lulusan luar negeri di UIB dapat berbeda-beda tergantung pada periode penerimaan mahasiswa yang ditetapkan setiap tahunnya. \n\nSetiap periode pendaftaran memiliki tanggal terakhir yang berbeda, sehingga sangat penting untuk selalu memeriksa *jadwal terbaru* yang diumumkan oleh pihak universitas. Pastikan Anda memperhatikan semua informasi yang diberikan agar tidak terlewatkan.",
+            
+            "Deadline pendaftaran untuk lulusan luar negeri di UIB bervariasi tergantung pada periode pendaftaran yang sedang berlangsung. \n\nOleh karena itu, sangat disarankan untuk selalu mengunjungi *website resmi UIB* untuk mendapatkan informasi yang paling akurat dan terkini mengenai *batas waktu pendaftaran*. Pastikan Anda menyiapkan semua dokumen dan persyaratan sesuai dengan jadwal yang telah ditentukan."
+        ]
         },
         {
           "tag": "program_khusus_lulusan_luar_negeri",
@@ -699,20 +548,9 @@
             "UIB punya program khusus untuk lulusan luar negeri?"
           ],
           "responses": [
-            "UIB tidak memiliki program khusus untuk lulusan luar negeri, tetapi semua lulusan luar negeri harus melalui proses penyetaraan ijazah sebelum melanjutkan pendaftaran.",
-            "Tidak ada program khusus untuk lulusan luar negeri di UIB, namun proses penyetaraan ijazah harus dilakukan sebelum pendaftaran."
-          ]
-        },
-        {
-          "tag": "pendaftaran_online_lulusan_luar_negeri",
-          "patterns": [
-            "Bisakah lulusan luar negeri mendaftar langsung di UIB?",
-            "Bisakah saya mendaftar secara online sebagai lulusan luar negeri?",
-            "Apakah lulusan luar negeri bisa daftar online di UIB?"
-          ],
-          "responses": [
-            "Lulusan luar negeri dapat mendaftar secara online di UIB, tetapi pastikan semua dokumen yang dibutuhkan sudah lengkap, termasuk dokumen penyetaraan ijazah.",
-            "Anda bisa mendaftar online di UIB sebagai lulusan luar negeri, pastikan semua dokumen yang diperlukan sudah lengkap."
+              "*UIB* tidak menyediakan program studi yang dirancang khusus hanya untuk lulusan luar negeri. \n\nNamun, meskipun tidak ada program spesial, para lulusan luar negeri tetap dipersilakan untuk mendaftar pada berbagai program yang ada di *UIB*, dengan syarat mereka harus mengikuti prosedur *penyetaraan ijazah* terlebih dahulu. Proses ini penting untuk memastikan bahwa ijazah yang dimiliki dapat diakui oleh sistem pendidikan di Indonesia.",
+              
+              "Walaupun tidak ada program khusus yang ditujukan khusus untuk lulusan luar negeri, penting untuk diketahui bahwa semua lulusan luar negeri wajib menyelesaikan proses *penyetaraan ijazah* sebagai bagian dari prosedur pendaftaran di *UIB*. \n\nProses ini bertujuan untuk menyamakan standar pendidikan yang diterima di luar negeri dengan ketentuan yang berlaku di Indonesia."
           ]
         },
         {
@@ -723,8 +561,9 @@
             "Apakah ada beasiswa untuk mahasiswa internasional di UIB?"
           ],
           "responses": [
-            "UIB menyediakan beasiswa untuk mahasiswa internasional, namun pastikan Anda memeriksa jenis beasiswa yang tersedia serta persyaratannya di website resmi UIB.",
-            "Ada beasiswa untuk lulusan luar negeri di UIB, cek website resmi UIB untuk informasi lebih lanjut mengenai jenis beasiswa dan persyaratannya."
+              "*UIB* memang menyediakan beasiswa untuk mahasiswa internasional, termasuk lulusan luar negeri. Beasiswa ini mencakup berbagai jenis, mulai dari beasiswa prestasi hingga beasiswa berdasarkan kebutuhan finansial. \n\nSebelum mendaftar, pastikan Anda memeriksa persyaratan yang berlaku dan jenis beasiswa yang tersedia, yang dapat ditemukan di website resmi *UIB*.",
+              
+              "*UIB* menawarkan beberapa program beasiswa untuk lulusan luar negeri, yang mencakup berbagai kategori. Untuk informasi lebih lanjut mengenai jenis beasiswa yang tersedia, syarat pendaftaran, serta cara mendaftar. \n\nPastikan Anda mengunjungi website resmi *UIB* dan memeriksa informasi terkini mengenai peluang beasiswa yang dapat diakses oleh mahasiswa internasional."
           ]
         },
         {
@@ -735,8 +574,9 @@
             "Bagaimana cara mengikuti Ujian Paket C untuk lulusan luar negeri?"
           ],
           "responses": [
-            "Ujian Paket C adalah alternatif bagi WNI lulusan luar negeri yang ijazahnya belum disetarakan oleh DIKTI. Ujian ini setara dengan ujian negara untuk pendidikan setingkat SMA.",
-            "Jika ijazah luar negeri belum disetarakan, Anda bisa mengikuti Ujian Paket C sebagai alternatif. Ujian ini setara dengan ujian negara untuk pendidikan setingkat SMA."
+              "Ujian *Paket C* adalah sebuah ujian alternatif yang diperuntukkan bagi WNI lulusan luar negeri yang ijazahnya belum disetarakan oleh *DIKTI*. Ujian ini memiliki kesetaraan dengan ujian negara untuk jenjang pendidikan setingkat SMA di Indonesia. \n\nJika Anda adalah lulusan luar negeri dan ijazah Anda belum disetarakan, mengikuti *Ujian Paket C* adalah salah satu solusi untuk memenuhi persyaratan pendidikan di Indonesia.",
+
+              "Jika ijazah luar negeri Anda belum disetarakan oleh *DIKTI*, Anda dapat mengikuti *Ujian Paket C* sebagai alternatif untuk mendapatkan pengakuan atas pendidikan setingkat SMA di Indonesia. \n\nUjian ini berfungsi sebagai pengganti dan setara dengan ujian negara yang diadakan untuk jenjang pendidikan tersebut. Anda bisa mencari informasi lebih lanjut mengenai jadwal dan prosedur pendaftaran ujian ini melalui situs resmi penyelenggara *Ujian Paket C*."
           ]
         }
       ]
@@ -754,9 +594,10 @@
             "Apa saja persyaratan untuk mahasiswa transfer di UIB?"
           ],
           "responses": [
-            "Untuk mendaftar sebagai mahasiswa transfer, Anda harus mengirimkan transkrip nilai Anda ke Humas UIB melalui email atau WhatsApp. Setelah itu, proses penyetaraan SKS akan dilakukan sesuai dengan kurikulum UIB.",
-            "UIB menerima mahasiswa transfer dari berbagai program studi, tetapi pastikan Anda telah melengkapi dokumen yang dibutuhkan, seperti transkrip nilai, dan mengikuti prosedur penyetaraan SKS."
-          ]
+            "Untuk mendaftar sebagai mahasiswa transfer di UIB, Anda perlu mengirimkan transkrip nilai dari universitas asal ke *Humas UIB*, yang dapat dilakukan melalui email atau WhatsApp. Transkrip ini akan menjadi dasar untuk melakukan penyetaraan SKS (Satuan Kredit Semester) yang telah Anda ambil sebelumnya dengan kurikulum yang berlaku di UIB. \n\nProses penyetaraan ini penting untuk memastikan bahwa mata kuliah yang telah Anda ikuti sebelumnya dapat diterima dan diakui oleh program studi di UIB. Pastikan bahwa transkrip nilai Anda lengkap dan mencakup seluruh mata kuliah yang telah diselesaikan, serta dapat dipertanggungjawabkan dengan jelas.",
+
+            "UIB menerima mahasiswa transfer dari berbagai program studi yang ada, namun setiap permohonan transfer akan diperiksa terlebih dahulu untuk memastikan kesesuaian antara kurikulum yang telah dijalani di universitas asal dengan kurikulum yang diterapkan di UIB. Oleh karena itu, setelah pengiriman dokumen, termasuk transkrip nilai, pihak UIB akan melakukan evaluasi mengenai mata kuliah yang dapat dialihkan ke program studi yang Anda pilih di UIB. \n\nProses ini memungkinkan Anda untuk melanjutkan studi tanpa harus mengulang mata kuliah yang sudah pernah diambil, namun perlu diingat bahwa beberapa mata kuliah mungkin tidak dapat disetarakan tergantung pada kesesuaian materi dan kredit yang diperoleh."
+        ]
         },
         {
           "tag": "proses_penyetaraan_sks",
@@ -768,10 +609,10 @@
             "Bagaimana cara menyetarakan SKS di UIB?"
           ],
           "responses": [
-            "Setelah Anda mengirimkan transkrip nilai, UIB akan melakukan penyetaraan SKS sesuai dengan kurikulum yang berlaku. Anda dapat meninjau hasil penyetaraan tersebut, dan jika setuju, melanjutkan ke tahap selanjutnya.",
-            "Proses penyetaraan SKS biasanya memakan waktu beberapa minggu. Setelah selesai, Anda akan diberi kesempatan untuk menyetujui hasil tersebut atau mendiskusikan ketidaksesuaian jika ada.",
-            "Jika Anda tidak setuju dengan hasil penyetaraan SKS, Anda dapat mengajukan permohonan revisi kepada pihak terkait untuk pembahasan lebih lanjut."
-          ]
+            "Setelah Anda mengirimkan transkrip nilai, pihak UIB akan melakukan proses penyetaraan SKS berdasarkan kurikulum yang berlaku di UIB. Proses ini bertujuan untuk memastikan bahwa mata kuliah yang telah Anda ambil sebelumnya di universitas asal dapat diakui sesuai dengan standar yang ada di UIB. \n\nAnda akan diberikan kesempatan untuk meninjau hasil penyetaraan ini dan, jika sudah setuju, dapat melanjutkan ke tahapan berikutnya dalam proses pendaftaran atau perkuliahan di UIB. Proses ini penting untuk menentukan apakah kredit yang telah Anda peroleh dapat dihitung sebagai bagian dari program studi yang Anda pilih di UIB.",
+
+            "Proses penyetaraan SKS umumnya memakan waktu beberapa minggu tergantung pada jumlah mata kuliah yang perlu disetarakan dan kesesuaian antara kurikulum yang telah dijalani dengan yang diterapkan di UIB. Setelah penyetaraan selesai, Anda akan diberikan hasil yang menunjukkan mata kuliah mana yang dapat disetarakan dan mana yang tidak. \n\nJika Anda tidak setuju dengan hasil penyetaraan tersebut, Anda berhak mengajukan permohonan revisi atau diskusi dengan pihak yang berwenang untuk membahas ketidaksesuaian yang ada. Hal ini memberi Anda kesempatan untuk memastikan bahwa semua kredit yang telah Anda peroleh dihitung dengan benar."
+        ]
         },
         {
           "tag": "dokumen_pendaftaran_transfer",
@@ -782,8 +623,9 @@
             "Apa saja dokumen yang harus disiapkan untuk pendaftaran transfer?"
           ],
           "responses": [
-            "Dokumen yang dibutuhkan untuk pendaftaran transfer antara lain transkrip nilai dari universitas asal, surat keterangan aktif kuliah, dan dokumen lainnya yang relevan seperti fotokopi KTP.",
-            "Sebelum mendaftar, pastikan Anda menyiapkan transkrip nilai dan dokumen pendukung lainnya seperti surat keterangan aktif kuliah untuk mempermudah proses penyetaraan SKS."
+              "Dokumen yang dibutuhkan untuk pendaftaran transfer di UIB meliputi transkrip nilai resmi dari universitas asal, surat keterangan aktif kuliah yang menunjukkan status Anda sebagai mahasiswa aktif di universitas sebelumnya, serta fotokopi KTP sebagai bukti identitas. Pastikan semua dokumen dalam kondisi lengkap dan sah untuk menghindari keterlambatan dalam proses pendaftaran.\n\nSelain itu, Anda juga mungkin diminta untuk menyiapkan dokumen lain yang relevan, seperti surat pernyataan atau dokumen pendukung yang menunjukkan riwayat akademik Anda di universitas asal.",
+
+              "Sebelum mendaftar, pastikan Anda telah menyiapkan transkrip nilai dari universitas sebelumnya, yang menunjukkan semua mata kuliah dan SKS yang telah ditempuh. Dokumen pendukung seperti surat keterangan aktif kuliah juga sangat penting, karena ini akan mempermudah proses penyetaraan SKS Anda di UIB. Jangan lupa untuk memastikan dokumen tersebut valid dan lengkap agar proses transfer berjalan lancar.\n\nMengirimkan semua dokumen yang diperlukan dengan benar akan mempercepat proses pendaftaran dan membantu Anda menghindari hambatan di kemudian hari."
           ]
         },
         {
@@ -795,8 +637,8 @@
             "Apakah mahasiswa transfer dikenakan biaya pendaftaran?"
           ],
           "responses": [
-            "Pendaftaran sebagai mahasiswa transfer di UIB tidak dikenakan biaya pendaftaran. Namun, biaya kuliah dan biaya lainnya akan dikenakan sesuai dengan program studi yang dipilih."
-          ]
+            "Pendaftaran sebagai mahasiswa transfer di UIB tidak dikenakan biaya pendaftaran. *Anda dapat mendaftar tanpa harus membayar biaya pendaftaran terlebih dahulu.* Namun, perlu dicatat bahwa biaya kuliah akan dikenakan sesuai dengan program studi yang Anda pilih.\n\nSelain biaya kuliah, biaya lain yang terkait dengan proses pendidikan juga akan berlaku, seperti biaya administrasi atau biaya fasilitas. Pastikan untuk memeriksa informasi lebih lanjut mengenai biaya tersebut di website resmi UIB atau menghubungi pihak administrasi."
+        ]
         },
         {
           "tag": "ujian_transfer",
@@ -807,8 +649,9 @@
             "Bagaimana proses ujian untuk mahasiswa transfer di UIB?"
           ],
           "responses": [
-            "Setelah penyetaraan SKS, mahasiswa transfer diwajibkan mengikuti ujian saringan masuk sebagai bagian dari proses pendaftaran."
+              "Setelah proses penyetaraan SKS selesai, mahasiswa transfer diwajibkan untuk mengikuti ujian saringan masuk sebagai bagian dari prosedur pendaftaran di UIB. Ujian ini bertujuan untuk memastikan bahwa mahasiswa transfer memiliki pemahaman yang sesuai dengan kurikulum yang berlaku di UIB.\n\nPastikan Anda mempersiapkan diri untuk ujian ini, karena hasil ujian akan menjadi salah satu pertimbangan dalam proses penerimaan Anda sebagai mahasiswa transfer di UIB. Informasi lebih lanjut mengenai ujian ini dapat ditemukan di website resmi UIB atau dengan menghubungi pihak administrasi."
           ]
+
         },
         {
           "tag": "status_pendaftaran_transfer",
@@ -818,7 +661,7 @@
             "Bagaimana saya bisa mengetahui status pendaftaran transfer saya?"
           ],
           "responses": [
-            "Anda dapat memantau status pendaftaran transfer dengan menghubungi Humas UIB atau memeriksa email untuk pembaruan terkait pendaftaran Anda."
+            "Untuk memantau status pendaftaran transfer Anda, Anda dapat menghubungi Humas UIB yang akan memberikan informasi terbaru mengenai proses pendaftaran Anda. Anda juga bisa mendapatkan pembaruan melalui email resmi yang dikirimkan oleh pihak UIB terkait status pendaftaran.\n\nPastikan untuk memeriksa email secara rutin untuk memastikan Anda tidak ketinggalan informasi penting, dan jika perlu, *hubungi pihak terkait untuk klarifikasi lebih lanjut.*"
           ]
         },
         {
@@ -829,7 +672,7 @@
             "Bagaimana cara daftar transfer online di UIB?"
           ],
           "responses": [
-            "Ya, Anda dapat mendaftar sebagai mahasiswa transfer secara online melalui website resmi UIB. Pastikan semua dokumen yang diperlukan sudah lengkap sebelum mengirimkan pendaftaran online."
+            "Ya, Anda dapat mendaftar sebagai mahasiswa transfer secara online melalui website resmi UIB. Pastikan semua dokumen yang diperlukan sudah lengkap sebelum mengirimkan pendaftaran online.\n\nProses pendaftaran online ini akan memudahkan Anda dalam *melengkapi dan mengirimkan semua persyaratan yang dibutuhkan.* Setelah mengirimkan pendaftaran, Anda akan menerima konfirmasi atau pembaruan melalui email."
           ]
         },
         {
@@ -840,7 +683,7 @@
             "Kapan terakhir pendaftaran transfer di UIB?"
           ],
           "responses": [
-            "Batas waktu pendaftaran untuk mahasiswa transfer biasanya diumumkan setiap tahun. Pastikan untuk memeriksa pengumuman terbaru di website UIB."
+            "Batas waktu pendaftaran untuk mahasiswa transfer biasanya diumumkan setiap tahun. Pastikan untuk memeriksa pengumuman terbaru di website UIB.\n\nSetiap tahun, tanggal pendaftaran dan deadline dapat berbeda, tergantung pada periode penerimaan yang ditetapkan oleh pihak kampus. Oleh karena itu, *selalu pastikan untuk mengikuti informasi terbaru* agar tidak terlewatkan."
           ]
         },
         {
@@ -851,7 +694,7 @@
             "Apakah ada beasiswa untuk mahasiswa transfer di UIB?"
           ],
           "responses": [
-            "UIB menyediakan beberapa beasiswa untuk mahasiswa transfer, baik dari dalam negeri maupun luar negeri. Pastikan Anda memeriksa persyaratan beasiswa yang tersedia melalui website UIB."
+            "UIB menyediakan beberapa beasiswa untuk mahasiswa transfer, baik dari dalam negeri maupun luar negeri. *Pastikan Anda memeriksa persyaratan beasiswa yang tersedia melalui website UIB.*\n\nBeasiswa yang ditawarkan mencakup berbagai jenis dan dapat bervariasi sesuai dengan program studi atau latar belakang pendidikan. Untuk informasi lebih lanjut, silakan kunjungi halaman beasiswa di situs resmi UIB."
           ]
         },
         {
@@ -862,7 +705,7 @@
             "Bagaimana cara mendapatkan informasi lebih lanjut tentang pendaftaran transfer?"
           ],
           "responses": [
-            "Anda dapat menghubungi Humas UIB melalui email atau WhatsApp yang tertera di website resmi UIB."
+            "Anda dapat menghubungi Humas UIB melalui email atau WhatsApp yang tertera di website resmi UIB. Informasi kontak ini selalu diperbarui untuk memudahkan komunikasi dengan pihak Humas.\n\nPastikan Anda *memberikan informasi yang jelas terkait pendaftaran transfer* agar proses pengajuan dan pertanyaan Anda dapat ditangani dengan cepat."
           ]
         }
       ]
@@ -881,9 +724,9 @@
             "Apa saja yang perlu disiapkan untuk daftar S1 di UIB?"
           ],
           "responses": [
-            "Untuk mendaftar sebagai mahasiswa S1 (Sarjana) di UIB, Anda harus menyerahkan dokumen seperti fotokopi akta kelahiran, KTP, kartu keluarga, serta ijazah atau SKHU yang sudah dilegalisir. Pas foto ukuran 2x3 dengan latar biru juga perlu disiapkan.",
-            "Pendaftaran program S1 Sarjana di UIB dapat dilakukan secara online. Pastikan Anda mengunggah dokumen yang diperlukan seperti akta kelahiran, KTP, dan ijazah yang sudah dilegalisir.",
-            "Langkah-langkah pendaftaran S1 di UIB meliputi pengisian formulir online, pengunggahan dokumen yang diperlukan, dan pembayaran biaya pendaftaran sebesar Rp 1.500.000."
+            "Untuk mendaftar sebagai mahasiswa S1 (Sarjana) di UIB, Anda harus menyerahkan dokumen seperti fotokopi akta kelahiran, KTP, kartu keluarga, serta ijazah atau SKHU yang sudah dilegalisir. Pas foto ukuran 2x3 dengan latar biru juga perlu disiapkan.\n\nPendaftaran program S1 Sarjana di UIB dapat dilakukan secara online. Pastikan Anda mengunggah dokumen yang diperlukan seperti akta kelahiran, KTP, dan ijazah yang sudah dilegalisir.\n\nLangkah-langkah pendaftaran S1 di UIB meliputi pengisian formulir online, pengunggahan dokumen yang diperlukan, dan *pembayaran biaya pendaftaran sebesar Rp 1.500.000.*",
+            
+            "Untuk menjadi mahasiswa S1 (Sarjana) di UIB, Anda perlu menyerahkan dokumen seperti fotokopi akta kelahiran, KTP, kartu keluarga, serta ijazah atau SKHU yang sudah dilegalisir. Pas foto ukuran 2x3 dengan latar biru juga harus disiapkan.\n\nPendaftaran program S1 Sarjana di UIB bisa dilakukan secara online. Pastikan Anda mengunggah dokumen yang diperlukan seperti akta kelahiran, KTP, dan ijazah yang sudah dilegalisir.\n\nLangkah-langkah pendaftaran S1 di UIB mencakup pengisian formulir online, pengunggahan dokumen yang diperlukan, dan *pembayaran biaya pendaftaran sebesar Rp 1.500.000.*"
           ]
         },
         {
@@ -896,23 +739,9 @@
             "Berapa biaya untuk daftar S1 di UIB?"
           ],
           "responses": [
-            "Biaya pendaftaran program S1 Sarjana di UIB adalah Rp 1.500.000. Informasi lebih lanjut dapat ditemukan di website resmi UIB. Pastikan untuk memeriksa informasi terbaru mengenai biaya pendaftaran.",
-            "Untuk informasi biaya pendaftaran S1 di UIB, Anda dapat mengunjungi website resmi UIB atau menghubungi Humas UIB. Biaya pendaftaran adalah Rp 1.500.000."
-          ]
-        },
-        {
-          "tag": "seleksi_beasiswa_s1_sarjana",
-          "patterns": [
-            "Proses seleksi jalur beasiswa S1 Sarjana gimana?",
-            "Lama proses seleksi beasiswa S1 di UIB?",
-            "Dokumen tambahan untuk daftar beasiswa S1 apa?",
-            "Bagaimana cara mendapatkan beasiswa S1 di UIB?",
-            "Apa saja syarat untuk beasiswa S1 di UIB?"
-          ],
-          "responses": [
-            "Bagi yang ingin mendaftar melalui jalur beasiswa, pastikan Anda melampirkan fotokopi rapor serta sertifikat prestasi akademik maupun non-akademik. Semua dokumen harus lengkap sebelum proses seleksi dimulai.",
-            "Proses seleksi untuk jalur beasiswa di UIB akan dilakukan setelah Anda mengunggah semua dokumen yang dibutuhkan, termasuk rapor dan sertifikat prestasi. Waktu seleksi biasanya memakan waktu beberapa minggu.",
-            "Untuk mendapatkan beasiswa S1 di UIB, Anda perlu melengkapi dokumen seperti rapor dan sertifikat prestasi, serta mengikuti proses seleksi yang ditentukan."
+            "*Biaya pendaftaran program S1 Sarjana di UIB adalah Rp 1.500.000.* Informasi lebih lanjut dapat ditemukan di website resmi UIB. Pastikan untuk memeriksa informasi terbaru mengenai biaya pendaftaran.\n\nUntuk informasi biaya pendaftaran S1 di UIB, Anda dapat mengunjungi website resmi UIB atau menghubungi Humas UIB. *Biaya pendaftaran adalah Rp 1.500.000.*",
+            
+            "Pendaftaran program S1 Sarjana di UIB dikenakan biaya *sebesar Rp 1.500.000.* Untuk informasi lebih lanjut, silakan kunjungi website resmi UIB atau hubungi Humas UIB.\n\nBiaya untuk mendaftar *program S1 Sarjana di UIB adalah Rp 1.500.000.* Anda bisa mendapatkan informasi lebih lanjut di website resmi UIB atau dengan menghubungi Humas UIB."
           ]
         },
         {
@@ -925,9 +754,9 @@
             "Berapa maksimal usia untuk daftar S1 di UIB?"
           ],
           "responses": [
-            "Untuk mendaftar program S1 Sarjana di UIB, Anda harus berusia maksimal 35 tahun.",
-            "Batas usia untuk mendaftar program S1 di UIB adalah maksimal 35 tahun.",
-            "Anda harus berusia maksimal 35 tahun untuk mendaftar program S1 di UIB."
+              "Untuk mendaftar program S1 Sarjana di UIB, Anda harus berusia *maksimal 35 tahun*.\n\nBatas usia untuk mendaftar program S1 di UIB adalah *maksimal 35 tahun*. Pastikan Anda tidak melebihi batas usia tersebut untuk mendaftar program S1 di UIB.",
+              
+              "Batas usia untuk mendaftar program S1 di UIB adalah *maksimal 35 tahun*.\n\nUntuk mendaftar program S1 Sarjana di UIB, Anda harus berusia maksimal 35 tahun. Jadi, pastikan usia Anda tidak melebihi batas yang ditentukan, yaitu *maksimal 35 tahun*."
           ]
         },
         {
@@ -940,10 +769,10 @@
             "Apa saja dokumen yang harus disiapkan untuk pendaftaran S1 di UIB?"
           ],
           "responses": [
-            "Dokumen yang harus disiapkan untuk pendaftaran S1 Sarjana meliputi fotokopi akta kelahiran, KTP, kartu keluarga, ijazah atau SKHU yang dilegalisir, serta pas foto ukuran 2x3 dengan latar belakang biru.",
-            "Pastikan Anda menyiapkan dokumen seperti akta kelahiran, KTP, kartu keluarga, ijazah atau SKHU yang dilegalisir, serta pas foto ukuran 2x3 dengan latar belakang biru untuk pendaftaran S1 di UIB.",
-            "Dokumen yang diperlukan untuk pendaftaran S1 di UIB antara lain fotokopi akta kelahiran, KTP, kartu keluarga, ijazah atau SKHU yang dilegalisir, serta pas foto ukuran 2x3 dengan latar belakang biru."
-          ]
+                "Dokumen yang harus disiapkan untuk pendaftaran S1 Sarjana di UIB meliputi *fotokopi akta kelahiran*, *KTP*, *kartu keluarga*, *ijazah atau SKHU yang dilegalisir*, dan *pas foto ukuran 2x3* dengan latar belakang biru.\n\nPastikan dokumen yang diperlukan sudah lengkap dan sesuai dengan persyaratan pendaftaran.\n\nDokumen yang perlu disiapkan untuk pendaftaran S1 di UIB antara lain: fotokopi akta kelahiran, KTP, kartu keluarga, ijazah atau SKHU yang dilegalisir, serta pas foto ukuran 2x3 dengan latar belakang biru.",
+                
+                "Untuk mendaftar program S1 Sarjana di UIB, Anda perlu menyiapkan *fotokopi akta kelahiran*, *KTP*, *kartu keluarga*, *ijazah atau SKHU yang dilegalisir*, dan *pas foto ukuran 2x3* dengan latar belakang biru.\n\nPastikan semua dokumen tersebut sudah lengkap dan sesuai dengan persyaratan yang ditentukan oleh UIB.\n\nDokumen yang diperlukan meliputi fotokopi akta kelahiran, KTP, kartu keluarga, ijazah atau SKHU yang dilegalisir, serta pas foto ukuran 2x3 dengan latar belakang biru."
+            ]
         },
         {
           "tag": "beasiswa_s1_sarjana",
@@ -955,9 +784,9 @@
             "Bagaimana cara daftar beasiswa S1 di UIB?"
           ],
           "responses": [
-            "UIB menyediakan beasiswa untuk jalur S1 Sarjana, baik untuk jalur reguler maupun jalur beasiswa. Pastikan untuk memeriksa persyaratan dan ketersediaan beasiswa di website UIB.",
-            "Untuk mendapatkan beasiswa S1 di UIB, Anda perlu melengkapi dokumen yang diperlukan dan mengikuti proses seleksi yang ditentukan. Cek website UIB untuk informasi lebih lanjut.",
-            "UIB menawarkan berbagai beasiswa untuk program S1. Pastikan Anda memeriksa persyaratan dan ketersediaan beasiswa di website resmi UIB."
+              "UIB menyediakan beasiswa untuk jalur S1 Sarjana, baik untuk jalur reguler maupun jalur beasiswa. *Pastikan untuk memeriksa persyaratan dan ketersediaan beasiswa di website UIB.*\n\nUntuk mendapatkan beasiswa S1 di UIB, Anda perlu melengkapi dokumen yang diperlukan dan mengikuti proses seleksi yang ditentukan. *Cek website UIB untuk informasi lebih lanjut.*\n\nUIB menawarkan berbagai beasiswa untuk program S1. *Pastikan Anda memeriksa persyaratan dan ketersediaan beasiswa di website resmi UIB.*",
+              
+              "Universitas Internasional Batam (UIB) menyediakan berbagai beasiswa untuk program S1 Sarjana, baik melalui jalur reguler maupun jalur beasiswa khusus. *Anda dapat memeriksa persyaratan dan ketersediaan beasiswa di website resmi UIB.*\n\nUntuk mendapatkan beasiswa S1 di UIB, pastikan Anda melengkapi semua dokumen yang diperlukan dan mengikuti proses seleksi yang telah ditentukan. *Informasi lebih lanjut mengenai beasiswa dapat ditemukan di website UIB.*\n\nUIB menawarkan berbagai jenis beasiswa untuk program S1. *Pastikan Anda memeriksa persyaratan dan ketersediaan beasiswa di website resmi UIB.*"
           ]
         },
         {
@@ -970,9 +799,9 @@
             "Apa saja yang perlu disiapkan untuk daftar S1 online di UIB?"
           ],
           "responses": [
-            "Jika Anda belum menerima ijazah, Anda dapat mendaftar dengan menyertakan SKHU (Surat Keterangan Hasil Ujian) dan melampirkan surat keterangan dari sekolah. Untuk pendaftaran online, pastikan semua dokumen telah diunggah dengan benar.",
-            "Anda bisa mendaftar S1 di UIB secara online dengan mengunggah dokumen yang diperlukan seperti SKHU dan surat keterangan dari sekolah jika ijazah belum keluar.",
-            "Pendaftaran online untuk S1 di UIB dapat dilakukan dengan mengunggah dokumen yang diperlukan dan mengikuti langkah-langkah yang tertera di website resmi UIB."
+              "Jika Anda belum menerima ijazah, Anda dapat mendaftar dengan menyertakan *SKHU (Surat Keterangan Hasil Ujian)* dan melampirkan surat keterangan dari sekolah. Pastikan semua dokumen telah diunggah dengan benar saat mendaftar secara online.\n\nProses pendaftaran online untuk S1 di UIB dapat dilakukan dengan mengunggah dokumen yang diperlukan, seperti *SKHU* dan surat keterangan dari sekolah, jika ijazah belum keluar. Ikuti langkah-langkah yang tertera di website resmi UIB untuk menyelesaikan pendaftaran.",
+              
+              "Apabila ijazah belum diterima, Anda masih dapat mendaftar dengan melampirkan *SKHU (Surat Keterangan Hasil Ujian)* serta surat keterangan dari sekolah. Untuk pendaftaran online, pastikan semua dokumen yang diperlukan sudah terunggah dengan lengkap.\n\nPendaftaran online untuk S1 di UIB memerlukan pengunggahan dokumen yang sesuai, seperti *SKHU* dan surat keterangan sekolah, jika ijazah belum tersedia. Ikuti petunjuk yang ada di website resmi UIB untuk menyelesaikan proses pendaftaran."
           ]
         },
         {
@@ -985,9 +814,9 @@
             "Bagaimana saya bisa tahu status pendaftaran S1 saya di UIB?"
           ],
           "responses": [
-            "Untuk mengetahui status pendaftaran, Anda dapat memeriksa email Anda atau menghubungi Humas UIB untuk mendapatkan pembaruan terbaru terkait pendaftaran S1 Sarjana.",
-            "Anda bisa cek status pendaftaran S1 di UIB melalui email atau dengan menghubungi Humas UIB.",
-            "Untuk mengetahui status pendaftaran S1 di UIB, periksa email Anda atau hubungi Humas UIB untuk informasi lebih lanjut."
+              "Untuk mengetahui status pendaftaran S1 Sarjana di UIB, Anda dapat memeriksa email Anda untuk pembaruan terbaru. Jika Anda belum menerima informasi, Anda bisa menghubungi *Humas UIB* untuk mendapatkan status terkini terkait pendaftaran Anda.\n\nSelain itu, Anda juga dapat menghubungi *Humas UIB* langsung melalui email atau telepon untuk menanyakan status pendaftaran S1 Anda dan mendapatkan informasi lebih lanjut.",
+              
+              "Anda dapat memeriksa status pendaftaran S1 Sarjana di UIB melalui email yang telah dikirimkan oleh pihak UIB. Jika belum ada kabar, jangan ragu untuk menghubungi *Humas UIB* untuk mendapatkan pembaruan status.\n\nCara lain untuk mengecek status adalah dengan menghubungi *Humas UIB* langsung. Pastikan untuk memberikan informasi lengkap mengenai pendaftaran Anda agar proses pengecekan lebih cepat."
           ]
         },
         {
@@ -1000,9 +829,9 @@
             "Kapan terakhir pendaftaran S1 di UIB?"
           ],
           "responses": [
-            "Batas waktu pendaftaran untuk program S1 Sarjana di UIB biasanya diumumkan setiap tahun. Pastikan untuk memeriksa pengumuman terbaru di website UIB agar tidak melewatkan deadline.",
-            "Deadline pendaftaran S1 di UIB diumumkan setiap tahun. Cek website resmi UIB untuk informasi terbaru mengenai batas waktu pendaftaran.",
-            "Pastikan untuk memeriksa pengumuman terbaru di website UIB mengenai batas waktu pendaftaran S1 agar tidak melewatkan deadline."
+            "Batas waktu pendaftaran program S1 di UIB biasanya diumumkan setiap tahun. *Pastikan untuk memeriksa pengumuman terbaru di situs web UIB agar tidak ketinggalan tenggat waktu.*\n\nTenggat waktu pendaftaran S1 di UIB diumumkan setiap tahun. *Cek situs resmi UIB untuk informasi terbaru terkait batas waktu pendaftaran.*\n\nPastikan untuk memeriksa pengumuman terbaru di situs web UIB terkait batas waktu pendaftaran S1 agar tidak terlewat.",
+            
+            "Batas waktu pendaftaran untuk program S1 di UIB diumumkan setiap tahun. *Pastikan untuk selalu memeriksa pengumuman terbaru di situs web UIB agar tidak melewatkan tenggat waktu.*\n\nTenggat waktu pendaftaran S1 di UIB diumumkan setiap tahun. *Periksa situs resmi UIB untuk mendapatkan informasi terbaru mengenai batas waktu pendaftaran.*\n\nPastikan untuk memeriksa pengumuman terbaru di situs web UIB tentang batas waktu pendaftaran S1 agar tidak terlewat."
           ]
         },
         {
@@ -1015,10 +844,10 @@
             "Kapan jadwal ujian masuk untuk S1 di UIB?"
           ],
           "responses": [
-            "UIB menyelenggarakan ujian saringan masuk untuk calon mahasiswa S1 Sarjana. Setelah Anda mendaftar secara online, Anda akan mendapatkan informasi terkait jadwal ujian masuk melalui email atau pengumuman resmi.",
-            "Setelah mendaftar online, Anda akan mendapatkan informasi mengenai jadwal ujian masuk melalui email atau pengumuman resmi dari UIB.",
-            "Untuk mengikuti ujian masuk S1 di UIB, pastikan Anda telah mendaftar secara online dan menunggu informasi lebih lanjut mengenai jadwal ujian melalui email atau pengumuman resmi."
-          ]
+              "UIB menyelenggarakan ujian saringan masuk untuk calon mahasiswa S1 Sarjana. Setelah Anda mendaftar secara online, Anda akan mendapatkan informasi terkait jadwal ujian masuk melalui *email* atau pengumuman resmi.\n\nSetelah pendaftaran online, pastikan Anda memeriksa *email* atau pengumuman resmi untuk mendapatkan informasi lebih lanjut mengenai jadwal ujian masuk.",
+              
+              "Setelah mendaftar online, Anda akan mendapatkan informasi mengenai *jadwal ujian masuk* melalui *email* atau pengumuman resmi dari UIB. Jangan lupa untuk memeriksa secara berkala untuk mendapatkan pembaruan terbaru.\n\nUntuk mengikuti ujian masuk S1 di UIB, pastikan Anda sudah mendaftar secara online dan menunggu informasi lebih lanjut mengenai jadwal ujian melalui *email* atau pengumuman resmi."
+            ]
         },
         {
           "tag": "ubah_dokumen_s1_sarjana",
@@ -1030,9 +859,9 @@
             "Apakah bisa memperbaiki dokumen setelah daftar online S1 di UIB?"
           ],
           "responses": [
-            "Setelah pendaftaran online selesai, Anda biasanya tidak bisa mengubah dokumen yang telah diunggah. Namun, Anda dapat menghubungi Humas UIB untuk klarifikasi atau jika ada kesalahan dalam dokumen.",
-            "Jika ada kesalahan dalam dokumen yang diunggah setelah pendaftaran online, hubungi Humas UIB untuk klarifikasi dan bantuan lebih lanjut.",
-            "Anda tidak bisa mengubah dokumen setelah pendaftaran online selesai, tetapi Anda dapat menghubungi Humas UIB untuk klarifikasi atau jika ada kesalahan dalam dokumen."
+            "Setelah pendaftaran online selesai, Anda biasanya *tidak bisa mengubah dokumen* yang telah diunggah. Namun, jika ada kesalahan, Anda dapat menghubungi *Humas UIB* untuk klarifikasi atau bantuan lebih lanjut.\n\nJika Anda menyadari adanya kesalahan dalam dokumen setelah pendaftaran, segera hubungi *Humas UIB* untuk memperbaikinya.",
+            
+            "Jika ada kesalahan dalam dokumen yang diunggah setelah pendaftaran online, Anda *tidak dapat mengubahnya* secara langsung. Sebagai solusinya, hubungi *Humas UIB* untuk klarifikasi dan bantuan lebih lanjut.\n\nPastikan untuk segera menghubungi *Humas UIB* jika ada kesalahan agar dapat diperbaiki dengan cepat."
           ]
         }
       ]
@@ -1050,8 +879,9 @@
             "Berapa biaya pendaftaran untuk program S2 di UIB?"
           ],
           "responses": [
-            "Biaya pendaftaran program S2 (Magister) di UIB adalah Rp 1.500.000. Pembayaran dapat dilakukan melalui transfer ke rekening CIMB Niaga atas nama YMTI Universitas Internasional Batam.",
-            "Untuk mendaftar program S2 di UIB, Anda perlu membayar biaya pendaftaran sebesar Rp 1.500.000 melalui transfer bank ke rekening CIMB Niaga atas nama YMTI Universitas Internasional Batam."
+            "Untuk mendaftar program *S2 (Magister)* di *UIB*, biaya pendaftaran yang harus dibayar adalah *Rp 1.500.000*. Pembayaran dapat dilakukan melalui *transfer bank* ke rekening *CIMB Niaga* atas nama *YMTI Universitas Internasional Batam*.\n\nPastikan Anda melakukan pembayaran sebesar *Rp 1.500.000* untuk biaya pendaftaran program *S2 di UIB*. Transfer dapat dilakukan ke rekening *CIMB Niaga* atas nama *YMTI Universitas Internasional Batam* sesuai dengan prosedur yang telah ditentukan.",
+            
+            "Biaya pendaftaran untuk program *S2 (Magister)* di *UIB* adalah *Rp 1.500.000*. Pembayaran dilakukan melalui *transfer bank* ke rekening *CIMB Niaga* atas nama *YMTI Universitas Internasional Batam*.\n\nUntuk mendaftar program *S2 di UIB*, Anda perlu membayar biaya pendaftaran sebesar *Rp 1.500.000* melalui transfer ke rekening *CIMB Niaga* atas nama *YMTI Universitas Internasional Batam*."
           ]
         },
         {
@@ -1064,8 +894,9 @@
             "Dokumen apa yang diperlukan untuk mendaftar program S2 di UIB?"
           ],
           "responses": [
-            "Calon mahasiswa S2 (Magister) wajib melampirkan dokumen seperti fotokopi akta kelahiran, KTP, kartu keluarga, ijazah S1, transkrip akademik yang sudah dilegalisir, serta foto ukuran 4x6. Untuk program Magister Manajemen (MM), latar foto harus biru, sedangkan untuk Magister Hukum (MH), latar foto harus merah.",
-            "Dokumen yang diperlukan untuk pendaftaran S2 di UIB antara lain fotokopi akta kelahiran, KTP, kartu keluarga, ijazah S1, transkrip akademik yang sudah dilegalisir, serta foto ukuran 4x6 dengan latar biru untuk MM dan latar merah untuk MH."
+            "Untuk mendaftar program *Magister (S2)* di *UIB*, calon mahasiswa wajib melampirkan beberapa dokumen penting seperti:\n- Fotokopi *akta kelahiran*\n- *KTP*\n- *Kartu keluarga*\n- *Ijazah S1*\n- *Transkrip akademik* yang sudah dilegalisir\n- *Foto ukuran 4x6* (latar biru untuk Magister Manajemen, latar merah untuk Magister Hukum).\n\nPastikan semua dokumen tersebut sudah disiapkan dengan lengkap sesuai dengan ketentuan yang berlaku.",
+            
+            "Untuk mendaftar program *S2 (Magister)* di *UIB*, dokumen yang perlu disiapkan antara lain:\n- *Fotokopi akta kelahiran*\n- *KTP*\n- *Kartu keluarga*\n- *Ijazah S1*\n- *Transkrip akademik* yang telah dilegalisir\n- *Foto ukuran 4x6* (latar biru untuk *Magister Manajemen*, latar merah untuk *Magister Hukum*).\n\nPastikan semua dokumen sudah lengkap dan sesuai dengan persyaratan yang ditentukan oleh UIB."
           ]
         },
         {
@@ -1078,9 +909,9 @@
             "Langkah-langkah pendaftaran S2 di UIB?"
           ],
           "responses": [
-            "Untuk mendaftar program S2 (Magister) di UIB, Anda harus menyetorkan biaya pendaftaran sebesar Rp 1.500.000 melalui transfer bank dan mengunggah bukti pembayaran di situs resmi UIB.",
-            "Setelah membayar biaya pendaftaran, segera konfirmasi bukti pembayaran melalui link yang tersedia di situs resmi UIB.",
-            "Proses pendaftaran S2 di UIB meliputi pembayaran biaya pendaftaran, pengisian formulir online, dan pengunggahan dokumen yang diperlukan."
+            "Untuk mendaftar program *Magister (S2)* di *UIB*, Anda perlu melalui beberapa langkah penting:\n1. *Setorkan biaya pendaftaran* sebesar Rp 1.500.000 melalui transfer bank.\n2. *Unggah bukti pembayaran* di situs resmi UIB.\n3. Lengkapi *formulir pendaftaran online* dan *unggah dokumen yang diperlukan*.\n\nJangan lupa konfirmasi bukti pembayaran setelah transfer melalui link yang disediakan di situs resmi.",
+            
+            "Langkah-langkah pendaftaran *S2 (Magister)* di *UIB* adalah sebagai berikut:\n- *Bayar biaya pendaftaran* sebesar Rp 1.500.000 melalui transfer bank.\n- *Konfirmasi bukti pembayaran* melalui link di situs resmi UIB.\n- Lengkapi dan *unggah formulir pendaftaran online* serta dokumen yang diminta.\n\nProses pendaftaran ini akan selesai setelah semua langkah diikuti."
           ]
         },
         {
@@ -1093,8 +924,9 @@
             "Apa saja pilihan program S2 di UIB?"
           ],
           "responses": [
-            "UIB menawarkan program S2 di bidang Manajemen (Magister Manajemen/MM) dan Hukum (Magister Hukum/MH). Pilih program yang sesuai dengan minat dan kualifikasi Anda.",
-            "Untuk program S2, UIB menyediakan Magister Manajemen (MM) dan Magister Hukum (MH). Pilih program yang sesuai dengan minat Anda."
+            "UIB menawarkan program *S2* di dua bidang utama:\n1. *Magister Manajemen (MM)*\n2. *Magister Hukum (MH)*\n\nPilih program yang sesuai dengan minat dan kualifikasi Anda.",
+            
+            "Program *S2* yang ditawarkan di *UIB* meliputi *Magister Manajemen (MM)* dan *Magister Hukum (MH)*. Pilihlah program yang paling sesuai dengan latar belakang dan minat Anda."
           ]
         },
         {
@@ -1107,8 +939,9 @@
             "Bagaimana cara mendapatkan beasiswa untuk S2 di UIB?"
           ],
           "responses": [
-            "UIB menyediakan berbagai jalur pendaftaran untuk program S2 (Magister), termasuk jalur reguler dan beasiswa. Pastikan Anda memeriksa persyaratan dan dokumen yang diperlukan untuk masing-masing jalur di situs resmi UIB.",
-            "Untuk program S2, UIB menawarkan jalur pendaftaran reguler dan beasiswa. Cek persyaratan dan dokumen yang diperlukan di situs resmi UIB."
+            "UIB menyediakan berbagai jalur pendaftaran untuk program S2 (Magister), termasuk jalur *reguler* dan *beasiswa*. Untuk jalur beasiswa, terdapat dua jenis beasiswa utama yang bisa dipilih, yaitu: \n- *Beasiswa Cemerlang*, yang diberikan kepada mahasiswa dengan prestasi akademik tinggi, dengan potongan biaya kuliah dan SPP hingga *100%*.\n- *Beasiswa Insan Mandiri*, yang ditujukan untuk mahasiswa dari keluarga kurang mampu, dengan dukungan biaya kuliah dan SPP penuh, serta kewajiban mengikuti *magang di universitas*. Pastikan Anda memeriksa persyaratan dan dokumen yang diperlukan untuk masing-masing jalur di situs resmi UIB.",
+            
+            "Untuk program S2 di UIB, Anda dapat memilih jalur pendaftaran *reguler* atau *beasiswa*. Untuk jalur beasiswa, ada dua opsi utama, yaitu: \n- *Beasiswa Cemerlang*, yang memberikan potongan biaya kuliah dan SPP hingga *100%* bagi mahasiswa dengan nilai *UN* di atas *8.50* dan prestasi di tingkat *provinsi* atau lebih tinggi.\n- *Beasiswa Insan Mandiri*, yang menawarkan bantuan biaya kuliah dan SPP penuh bagi mahasiswa dari keluarga kurang mampu, dengan syarat tambahan berupa kewajiban mengikuti *magang di universitas*. Pastikan untuk memeriksa persyaratan dan dokumen yang dibutuhkan di situs resmi UIB."
           ]
         },
         {
@@ -1121,8 +954,9 @@
             "Apakah ada wawancara untuk pendaftaran S2 di UIB?"
           ],
           "responses": [
-            "UIB melakukan seleksi untuk pendaftaran program S2 (Magister), yang mungkin mencakup ujian atau wawancara. Pastikan untuk melengkapi semua dokumen yang dibutuhkan sebelum mengikuti seleksi.",
-            "Untuk masuk program S2 di UIB, Anda mungkin perlu mengikuti ujian atau wawancara sebagai bagian dari proses seleksi. Pastikan semua dokumen sudah lengkap sebelum mengikuti seleksi."
+            "Untuk mendaftar program *Magister S2* di *UIB*, Anda akan melalui proses seleksi yang komprehensif. Seleksi ini bisa melibatkan *ujian tertulis* yang dirancang untuk menguji pemahaman akademik serta kemampuan analitis Anda. Selain itu, beberapa program juga dapat mengadakan *wawancara* sebagai bagian dari proses seleksi untuk menilai kesiapan dan motivasi calon mahasiswa. Pastikan Anda menyiapkan diri dengan baik, karena wawancara ini memberi kesempatan bagi Anda untuk menunjukkan keunggulan dan komitmen terhadap program yang Anda pilih.\n\nPastikan untuk memeriksa persyaratan khusus yang berlaku pada program yang Anda pilih di situs resmi UIB.",
+
+            "Proses seleksi untuk program *Magister S2* di *UIB* dirancang untuk memastikan bahwa calon mahasiswa memiliki kompetensi yang dibutuhkan untuk sukses dalam studi lanjut. Setelah melengkapi persyaratan administrasi, Anda mungkin akan diminta untuk mengikuti *ujian tertulis* untuk menguji pengetahuan dan keterampilan dasar yang relevan dengan program studi yang dipilih. Selain itu, beberapa program juga mengharuskan calon mahasiswa untuk mengikuti *wawancara* sebagai bagian dari penilaian. Dalam wawancara, Anda akan berbicara dengan penguji untuk menggali lebih dalam mengenai tujuan karir, motivasi pendidikan, dan kesiapan Anda untuk menghadapi tantangan akademik di tingkat magister. Pastikan semua dokumen pendaftaran telah lengkap sebelum mengikuti ujian atau wawancara.\n\nJika Anda memiliki pertanyaan lebih lanjut, hubungi bagian administrasi untuk klarifikasi."
           ]
         },
         {
@@ -1135,8 +969,9 @@
             "Bagaimana cara mendaftar program S2 di UIB secara online?"
           ],
           "responses": [
-            "Pendaftaran untuk program S2 (Magister) di UIB dapat dilakukan secara online melalui situs resmi UIB. Pastikan untuk mengunggah semua dokumen yang dibutuhkan dengan benar.",
-            "Anda bisa mendaftar program S2 di UIB secara online melalui situs resmi UIB. Pastikan semua dokumen yang diperlukan sudah lengkap."
+            "Pendaftaran untuk program *S2 (Magister)* di *UIB* dapat dilakukan secara *online* melalui situs resmi UIB. Anda dapat mengakses semua informasi terkait pendaftaran, termasuk persyaratan, biaya, dan jadwal seleksi, langsung di website tersebut. Pastikan untuk *mengunggah semua dokumen yang dibutuhkan* dengan lengkap dan sesuai format yang telah ditentukan. Selain itu, periksa kembali semua informasi yang Anda masukkan sebelum mengirimkan aplikasi, untuk memastikan tidak ada kesalahan.\n\nJika ada pertanyaan lebih lanjut, Anda bisa menghubungi pihak administrasi untuk bantuan lebih lanjut.",
+            
+            "Anda dapat melakukan pendaftaran program *S2* di *UIB* secara *online* melalui *situs resmi UIB*. Di website tersebut, Anda akan menemukan panduan lengkap mengenai *persyaratan pendaftaran*, *biaya*, dan *tahapan seleksi*. Pastikan untuk mengisi formulir pendaftaran dengan data yang akurat, dan unggah semua dokumen yang diperlukan, seperti fotokopi ijazah, transkrip, dan bukti pembayaran biaya pendaftaran. Jangan lupa untuk memeriksa kembali semua dokumen yang diunggah sebelum mengirimkan aplikasi, agar proses pendaftaran berjalan lancar.\n\nPastikan juga untuk memeriksa status pendaftaran Anda secara berkala di situs resmi UIB."
           ]
         },
         {
@@ -1148,8 +983,9 @@
             "Langkah-langkah konfirmasi pendaftaran S2 di UIB?"
           ],
           "responses": [
-            "Setelah melakukan pembayaran biaya pendaftaran, Anda perlu mengunggah bukti transfer di situs resmi UIB untuk konfirmasi. Anda akan menerima pemberitahuan lebih lanjut setelah proses konfirmasi selesai.",
-            "Untuk konfirmasi pendaftaran S2, unggah bukti pembayaran di situs resmi UIB. Anda akan mendapatkan pemberitahuan lebih lanjut setelah konfirmasi berhasil."
+            "Setelah Anda melakukan pembayaran biaya pendaftaran untuk program S2 (Magister), langkah selanjutnya adalah *mengunggah bukti transfer pembayaran* melalui situs resmi UIB. Pastikan untuk mengunggah *bukti transfer* dengan jelas dan sesuai format yang ditentukan. Setelah bukti pembayaran berhasil diunggah, Anda akan menerima *pemberitahuan lebih lanjut* mengenai status pendaftaran Anda. Jika semua data dan dokumen sudah lengkap, Anda akan diberi informasi terkait langkah selanjutnya dalam proses pendaftaran.\n\nPastikan semua dokumen Anda terunggah dengan benar agar proses konfirmasi dapat berjalan lancar.",
+            
+            "Untuk melakukan konfirmasi pendaftaran program S2 di UIB, pertama-tama Anda harus *mengunggah bukti pembayaran biaya pendaftaran* melalui situs resmi UIB. Pastikan bukti transfer yang diunggah jelas dan sesuai dengan format yang diminta. Setelah konfirmasi pembayaran diterima, Anda akan mendapatkan *pemberitahuan lebih lanjut* mengenai status pendaftaran Anda. Proses konfirmasi ini sangat penting untuk memastikan bahwa pendaftaran Anda diproses dengan benar dan sesuai jadwal.\n\nJika Anda memiliki pertanyaan lebih lanjut, Anda dapat menghubungi pihak administrasi UIB."
           ]
         },
         {
@@ -1162,8 +998,9 @@
             "Bagaimana jika saya belum lulus S1 tapi ingin daftar S2 di UIB?"
           ],
           "responses": [
-            "Syarat umum untuk mendaftar program S2 (Magister) di UIB adalah memiliki gelar S1 yang sudah dilegalisir. Jika Anda belum lulus S1, Anda dapat mendaftar dengan melampirkan surat keterangan dari institusi pendidikan yang menyatakan Anda masih dalam proses penyelesaian studi.",
-            "Untuk mendaftar program S2 di UIB, Anda harus memiliki gelar S1 yang sudah dilegalisir. Jika belum lulus S1, lampirkan surat keterangan dari institusi pendidikan yang menyatakan Anda masih dalam proses penyelesaian studi."
+            "Untuk mendaftar program S2 (Magister) di UIB, syarat utama yang harus dipenuhi adalah memiliki gelar S1 yang sudah dilegalisir. Jika Anda belum lulus S1 tetapi ingin mendaftar, Anda masih bisa melanjutkan proses pendaftaran dengan melampirkan *surat keterangan dari perguruan tinggi* yang menyatakan bahwa Anda masih dalam proses penyelesaian studi. Surat ini harus mencantumkan estimasi waktu kelulusan Anda. Pastikan bahwa surat keterangan tersebut dikeluarkan oleh pihak kampus yang berwenang dan memiliki tanda tangan resmi.\n\nPastikan juga untuk memeriksa syarat lainnya yang mungkin diperlukan pada situs resmi UIB.",
+            
+            "Syarat umum untuk pendaftaran program S2 di UIB adalah memiliki gelar S1 yang sudah dilegalisir. Namun, jika Anda belum lulus S1 tetapi berniat untuk mendaftar, Anda tetap bisa melakukannya dengan melampirkan *surat keterangan resmi* dari universitas Anda yang menyatakan bahwa Anda masih dalam tahap penyelesaian studi. Surat keterangan ini harus memuat informasi tentang status pendidikan Anda dan kapan diperkirakan Anda akan menyelesaikan studi S1.\n\nPastikan untuk mengonfirmasi syarat-syarat lainnya yang berlaku di situs resmi UIB."
           ]
         },
         {
@@ -1176,8 +1013,9 @@
             "Apakah UIB menerima mahasiswa transfer untuk program S2?"
           ],
           "responses": [
-            "UIB menerima mahasiswa transfer untuk program S2 (Magister), asalkan memenuhi persyaratan akademik yang berlaku dan membawa dokumen yang diperlukan seperti transkrip dan ijazah yang sudah dilegalisir.",
-            "Anda bisa mendaftar sebagai mahasiswa transfer untuk program S2 di UIB jika memenuhi persyaratan akademik dan membawa dokumen yang diperlukan seperti transkrip dan ijazah yang sudah dilegalisir."
+            "Untuk mendaftar program S2 (Magister) di UIB, syarat utama yang harus dipenuhi adalah memiliki gelar S1 yang sudah dilegalisir. Jika Anda belum lulus S1 tetapi ingin mendaftar, Anda masih bisa melanjutkan proses pendaftaran dengan melampirkan *surat keterangan dari perguruan tinggi* yang menyatakan bahwa Anda masih dalam proses penyelesaian studi. Surat ini harus mencantumkan estimasi waktu kelulusan Anda. Pastikan bahwa surat keterangan tersebut dikeluarkan oleh pihak kampus yang berwenang dan memiliki tanda tangan resmi.\n\nPastikan juga untuk mengecek syarat lainnya di situs resmi UIB untuk memastikan kelengkapan dokumen dan persyaratan yang diperlukan.",
+            
+            "Syarat umum untuk pendaftaran program S2 di UIB adalah memiliki gelar S1 yang sudah dilegalisir. Namun, jika Anda belum lulus S1 tetapi berniat untuk mendaftar, Anda tetap bisa melakukannya dengan melampirkan *surat keterangan resmi* dari universitas Anda yang menyatakan bahwa Anda masih dalam tahap penyelesaian studi. Surat keterangan ini harus memuat informasi tentang status pendidikan Anda dan kapan diperkirakan Anda akan menyelesaikan studi S1.\n\nPastikan untuk mengonfirmasi syarat-syarat lainnya di situs resmi UIB agar Anda dapat memenuhi seluruh persyaratan pendaftaran dengan lengkap."
           ]
         },
         {
@@ -1190,8 +1028,9 @@
             "Berapa banyak mahasiswa yang bisa diterima di program S2 UIB?"
           ],
           "responses": [
-            "Jumlah mahasiswa yang diterima di program S2 (Magister) UIB bervariasi setiap tahunnya dan tergantung pada kapasitas program studi yang tersedia. Untuk informasi lebih lanjut, Anda dapat memeriksa situs resmi UIB.",
-            "Kuota mahasiswa yang diterima di program S2 UIB bervariasi setiap tahunnya tergantung pada kapasitas program studi. Cek situs resmi UIB untuk informasi lebih lanjut."
+            "Jumlah mahasiswa yang diterima di program S2 (Magister) di UIB bervariasi setiap tahunnya, karena kuota penerimaan ditentukan oleh kapasitas masing-masing program studi yang tersedia.\n\nBeberapa program studi mungkin memiliki kuota lebih besar, sementara yang lainnya lebih terbatas.\n\nUntuk mengetahui informasi terkini mengenai jumlah kuota atau jumlah mahasiswa yang diterima di program S2, Anda disarankan untuk memeriksa situs resmi UIB atau menghubungi pihak pendaftaran.",
+            
+            "Kuota untuk penerimaan mahasiswa di program S2 (Magister) di UIB tidak tetap dan dapat berubah setiap tahun sesuai dengan kapasitas masing-masing program studi.\n\nBeberapa program studi mungkin menawarkan lebih banyak tempat tergantung pada kebutuhan dan kebijakan universitas.\n\nPastikan untuk memeriksa situs resmi UIB atau menghubungi pihak pendaftaran untuk mendapatkan informasi terbaru mengenai jumlah kuota dan persyaratan yang berlaku."
           ]
         }
       ]

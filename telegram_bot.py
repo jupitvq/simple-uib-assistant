@@ -20,8 +20,8 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.05:
-        return "Maaf, saya tidak mengerti, jika anda butuh bantuan harap menghubungi humas kami.", None
+    if max_prob < 0.065:
+        return "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail.", None
     else:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
@@ -40,17 +40,17 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text('Hi! Anda terhubung dengan chatbot kami.')
+    await update.message.reply_text('*Hi!* Anda sedang terhubung dengan chatbot kami yang saat ini masih dalam tahap pengembangan. 😊\n\nKami sedang bekerja keras untuk meningkatkan kemampuan chatbot ini agar dapat memberikan informasi yang lebih lengkap dan akurat. Saat ini, chatbot ini bisa memberikan jawaban terbatas, namun tim kami selalu siap membantu jika Anda membutuhkan informasi lebih lanjut.\n\nTerima kasih atas kesabaran Anda, dan kami akan terus berusaha memberikan pengalaman yang lebih baik!', parse_mode='Markdown')
 
 async def help_command(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text("Untuk memulai chat, ketik /start. Untuk mengakhiri chat, ketik 'bye'")
+    await update.message.reply_text("*Untuk memulai percakapan, ketik /start.*\n\nSetelah Anda siap, ketik perintah tersebut untuk mengakses layanan kami.\n\n*Untuk mengakhiri chat, ketik 'bye'.*\n\nJika Anda sudah selesai atau ingin berhenti, cukup ketik 'bye' dan percakapan akan berakhir. Kami siap membantu kapan saja!", parse_mode='Markdown')
 
 async def handle_message(update: Update, context: CallbackContext) -> None:
     user_message = update.message.text
     response, tag = bot_response(user_message, pipeline, jp)
-    await update.message.reply_text(response)
+    await update.message.reply_text(response, parse_mode='Markdown')
     if tag == 'bye' or tag == 'bye_umum':
-        await update.message.reply_text('Sampai jumpa!')
+        await update.message.reply_text('*Sampai jumpa!* 👋\n\nTerima kasih banyak telah menjadi bagian dari pengujian chatbot kami. 🙏 Kami sangat menghargai waktu dan masukan Anda yang sangat berharga.', parse_mode='Markdown')
 
 def main() -> None:
     token = os.getenv("TELEGRAM_BOT_TOKEN")
