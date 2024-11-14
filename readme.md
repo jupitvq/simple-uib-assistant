@@ -2,7 +2,7 @@
 
 Chatbot sederhana berbasis scikit-learn untuk membantu mahasiswa memberikan informasi seputar akademik & administrasi UIB.
 
-## Installation
+## instalasi
 
 Lakukan di terminal agar dapat melakukan clone dari github ini:
 ```bash
