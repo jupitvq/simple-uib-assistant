@@ -1,6 +1,7 @@
 import logging
 import os
 import random
+import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, CallbackContext
 import pickle
@@ -10,6 +11,9 @@ from util.parser import JSONParser
 from dotenv import load_dotenv
 
 load_dotenv()
+
+TYPING_DELAY = 1
+TYPING_UPDATE_DELAY = 0.5
 
 def preprocess(chat):
     chat = chat.lower()
@@ -22,7 +26,7 @@ def bot_response(chat, pipeline, jp):
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
     if max_prob < 0.065:
-        return "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau *menghubungi Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail.", None
+        return "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail.", None
     else:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
@@ -50,7 +54,7 @@ def get_random_pattern(jp):
 
 def create_inline_keyboard(pattern):
     keyboard = [
-        [InlineKeyboardButton("Tanya", callback_data=pattern[:64]), InlineKeyboardButton("Pertanyaan Lain", callback_data="minta_pertanyaan_lain")]
+        [InlineKeyboardButton("Tanya", callback_data=pattern[:64]), InlineKeyboardButton("Pertanyaan Lainnya", callback_data="minta_pertanyaan_lain")]
     ]
     return InlineKeyboardMarkup(keyboard)
 
@@ -59,12 +63,18 @@ def create_inline_keyboard_with_3_buttons(patterns):
     return InlineKeyboardMarkup(keyboard)
 
 async def start(update: Update, context: CallbackContext) -> None:
+    await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
+    await asyncio.sleep(TYPING_DELAY)
     await update.message.reply_text('*Hi!* Anda sedang terhubung dengan chatbot kami yang saat ini masih dalam tahap pengembangan. 😊\n\nKami sedang bekerja keras untuk meningkatkan kemampuan chatbot ini agar dapat memberikan informasi yang lebih lengkap dan akurat. Saat ini, chatbot ini bisa memberikan jawaban terbatas, namun tim kami selalu siap membantu jika Anda membutuhkan informasi lebih lanjut.\n\nTerima kasih atas kesabaran Anda, dan kami akan terus berusaha memberikan pengalaman yang lebih baik! 💪\n\n*Semoga hari Anda menyenangkan!* 😊', parse_mode='Markdown')
 
 async def help_command(update: Update, context: CallbackContext) -> None:
+    await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
+    await asyncio.sleep(TYPING_DELAY)
     await update.message.reply_text("*Untuk memulai percakapan, ketik /start.*\n\nSetelah Anda siap, ketik perintah tersebut untuk mengakses layanan kami.\n\n*Untuk rekomendasi pertanyaan, ketik /tanya.* Gunakan perintah ini untuk mendapatkan rekomendasi pertanyaan dari chatbot kami.\n\n*Untuk mengakhiri chat, ketik 'bye'.* Jika Anda sudah selesai atau ingin berhenti, cukup ketik 'bye' dan percakapan akan berakhir. Kami siap membantu kapan saja!\n\n*Untuk rekomendasi pertanyaan yang menarik, ketik /bantu.* Gunakan perintah ini untuk mendapatkan ide pertanyaan yang bisa Anda tanyakan kepada chatbot kami.\n\n*Semoga informasi ini membantu!* 😊", parse_mode='Markdown')
 
 async def handle_message(update: Update, context: CallbackContext) -> None:
+    await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
+    await asyncio.sleep(TYPING_DELAY)
     user_message = update.message.text
     response, tag = bot_response(user_message, pipeline, jp)
     await update.message.reply_text(response, parse_mode='Markdown')
@@ -72,11 +82,15 @@ async def handle_message(update: Update, context: CallbackContext) -> None:
         await update.message.reply_text('*Sampai jumpa!* 👋\n\nTerima kasih banyak telah menjadi bagian dari pengujian chatbot kami. 🙏 Kami sangat menghargai waktu dan masukan Anda yang sangat berharga.', parse_mode='Markdown')
 
 async def random_pattern_command(update: Update, context: CallbackContext) -> None:
+    await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
+    await asyncio.sleep(TYPING_UPDATE_DELAY)
     pattern = get_random_pattern(jp)
     keyboard = create_inline_keyboard(pattern)
     await update.message.reply_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
 
 async def bantu_command(update: Update, context: CallbackContext) -> None:
+    await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
+    await asyncio.sleep(TYPING_DELAY)
     patterns = []
     for intent in jp.data['intents']:
         if 'subintents' in intent:
@@ -96,8 +110,10 @@ async def button(update: Update, context: CallbackContext) -> None:
         keyboard = create_inline_keyboard(pattern)
         await query.edit_message_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
     else:
-        response, tag = bot_response(user_message, pipeline, jp)
         await query.edit_message_text(f"*👤 Anda:* {user_message}", parse_mode='Markdown')
+        await context.bot.send_chat_action(chat_id=query.message.chat_id, action="typing")
+        await asyncio.sleep(TYPING_UPDATE_DELAY)
+        response, tag = bot_response(user_message, pipeline, jp)
         await query.message.reply_text(response, parse_mode='Markdown')
 
 def main() -> None:
