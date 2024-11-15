@@ -25,11 +25,11 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.1:
+    if max_prob < 0.08:
         response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
         logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: None, patterns: None, response: {response}")
         return response, None, None
-    elif 0.1 <= max_prob < 0.19:
+    elif 0.08 <= max_prob < 0.15:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
         if pred_tag in ['salam', 'bye', 'kemampuan', 'salam_pertanyaan', 'salam_umum', 'bye_umum', 'kemampuan_pertanyaan']:
