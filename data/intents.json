@@ -7,8 +7,8 @@
             "tag": "salam_pertanyaan",
             "patterns": [
               "saya minta tolong",
-              "saya ada pertanyaan",
-              "Saya ingin bertanya",
+              "Pertanyaan dari saya",
+              "Ingin bertanya",
               "Mau tanya",
               "Bantu saya"
             ],
@@ -83,7 +83,6 @@
               "kamu bisa apa?",
               "apa yang bisa anda lakukan?",
               "kamu bisa ngapain aja?",
-              "kamu bisa ngapain?",
               "apa kemampuan kau?",
               "kamu punya keahlian apa?"
             ],
@@ -103,10 +102,10 @@
           {
             "tag": "pembayaran_bank_ocbc",
             "patterns": [
-              "Cara bayar pakai bank OCBC gimana?",
-              "Kalo mau bayar lewat ATM OCBC gimana caranya?",
+              "Cara bayar pakai bank OCBC?",
+              "Kalo mau bayar lewat ATM OCBC bagaimana caranya?",
               "Langkah bayar biaya kuliah pake ATM OCBC?",
-              "Kalo bayar lewat cabang OCBC gimana prosesnya?"
+              "Proses bayar lewat cabang OCBC?"
             ],
             "responses": [
               "Untuk pembayaran langsung di cabang *OCBC NISP*, ikuti langkah-langkah berikut:\n\n1️⃣ Ambil formulir penyetoran dari teller atau loket.\n2️⃣ Isi formulir dengan nomor *Virtual Account (VA)* yang disediakan oleh kampus dan nominal pembayaran.\n3️⃣ Periksa ulang semua informasi, termasuk nomor VA dan nominal pembayaran.\n4️⃣ Serahkan formulir kepada teller untuk diproses.\n\nSetelah transaksi selesai, teller akan memberikan bukti pembayaran yang dapat disimpan sebagai tanda bukti pembayaran yang sah.",
@@ -135,12 +134,12 @@
           {
             "tag": "pembayaran_metode_lain",
             "patterns": [
-              "Gimana kalo mau transfer bank lain buat bayar kuliah?",
+              "Gimana kalo mau transfer bank lain buat bayar uang kuliah?",
               "Metode pembayaran yang bisa dipakai buat bayar kuliah apa aja?",
               "Ada cara bayar selain OCBC gak?",
-              "Nomor VA buat pembayaran kampus gimana caranya?",
+              "Nomor VA buat pembayaran uang kampus gimana caranya?",
               "Bisa bayar pake ATM Bersama gak?",
-              "Apa yang bisa kamu bantu tentang pembayaran kuliah?"
+              "Apa yang bisa kamu bantu tentang pembayaran uang kuliah?"
             ],
             "responses": [
               "Untuk pembayaran biaya kuliah melalui mobile banking dari bank lain:\n\n1️⃣ Masuk ke aplikasi *mobile banking* bank Anda.\n2️⃣ Pilih menu *Transfer Antar-Bank* atau *Pembayaran Tagihan* (sesuai dengan menu yang tersedia).\n3️⃣ Masukkan kode bank OCBC NISP, yaitu *028*.\n4️⃣ Masukkan nomor *Virtual Account (VA)* yang diberikan oleh kampus beserta jumlah yang akan dibayarkan.\n5️⃣ Pastikan seluruh detail transaksi sudah benar sebelum melakukan konfirmasi.\n\nJika pembayaran melebihi jumlah yang ditagih, sisa dana akan tercatat sebagai deposit untuk pembayaran berikutnya.",
@@ -220,7 +219,7 @@
             "tag": "cara_daftar_online",
             "patterns": [
               "Apakah bisa mendaftar online?",
-              "Cara daftar online gimana?",
+              "Cara daftar online bagaimana?",
               "Langkah-langkah daftar online di UIB?",
               "Bisakah saya daftar online",
               "Apa yang harus dilakukan untuk daftar online?"
@@ -408,13 +407,13 @@
         ]
       },
       {
-        "tag": "sewa_kantin_dan_pinjam_ruangan_cetak_brosur",
+        "tag": "penyewaan_dan_peminjaman",
         "subintents": [
           {
             "tag": "prosedur_meminjam_ruangan",
             "patterns": [
-              "Bagaimana cara meminjam ruangan",
-              "Bagaimana prosedur meminjam ruangan ",
+              "Bagaimana cara minjam ruangan",
+              "Bagaimana prosedur minjam ruangan?",
               "Kayak mana cara meminjam ruangan di UIB?",
               "Saya mau pinjam ruangan",
               "Apakah bisa pinjam sebentar ruangan"
@@ -428,12 +427,12 @@
           {
             "tag": "prosedur_sewa_stall_kantin",
             "patterns": [
-              "Saya ingin menyewa kantin di UIB",
-              "Bagaimana cara nyewa stall kantin di UIB?",
+              "Bagaimana cara menyewa kantin di UIB",
+              "Apakah kantin disewakan untuk mahasiswa?",
               "Berapa harga sewa kantin?",
-              "Nyewa kantin gimana?",
+              "Prosedur penyewaan kantin di UIB",
               "Apakah bisa sewa kantin?",
-              "Bagaimana cara nyewa kantin?",
+              "Cara nyewa kantin?",
               "Cara sewa kantin apa saja syaratnya?"
             ],
             "responses": [
@@ -483,9 +482,9 @@
           "tag": "proses_penyetaraan_ijazah",
           "patterns": [
             "Syarat menyetarakan ijazah luar negeri di UIB?",
-            "Bagaimana proses penyetaraan ijazah luar negeri?",
+            "Bagaimana proses penyetaraan ijazah?",
             "Bagaimana cara mendapatkan dokumen penyetaraan ijazah?",
-            "Berapa lama proses penyetaraan ijazah luar negeri?",
+            "Berapa lama proses penyetaraan ijazah?",
             "Bagaimana jika ijazah saya tidak diakui di Indonesia?"
           ],
           "responses": [
@@ -501,8 +500,8 @@
           "patterns": [
             "Lulusan luar negeri perlu ujian masuk di UIB?",
             "Kedepannya ada ujian bahasa untuk lulusan luar negeri?",
-            "Apa yang harus dilakukan jika ijazah luar negeri belum disetarakan?",
-            "Ada tes khusus untuk lulusan luar negeri di UIB?"
+            "Apa yang harus dilakukan jika ijazah belum disetarakan?",
+            "Ada tes khusus untuk lulusan internasional di UIB?"
           ],
           "responses": [
             "Bagi lulusan luar negeri yang belum memiliki dokumen penyetaraan ijazah, salah satu alternatif yang dapat ditempuh adalah mengikuti Ujian Paket C. \n\nUjian ini dirancang untuk membantu menyetarakan ijazah luar negeri dengan standar pendidikan yang berlaku di Indonesia. Setelah mengikuti ujian ini, lulusan luar negeri akan dapat melanjutkan pendaftaran di UIB tanpa kendala yang berarti.",

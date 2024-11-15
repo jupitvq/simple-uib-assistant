@@ -29,7 +29,7 @@ def bot_response(chat, pipeline, jp):
         response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
         logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: None, patterns: None, response: {response}")
         return response, None, None
-    elif 0.08 <= max_prob < 0.15:
+    elif 0.08 <= max_prob < 0.19:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
         if pred_tag in ['salam', 'bye', 'kemampuan', 'salam_pertanyaan', 'salam_umum', 'bye_umum', 'kemampuan_pertanyaan']:
@@ -77,6 +77,12 @@ def create_inline_keyboard(patterns):
     keyboard = [[InlineKeyboardButton(pattern, callback_data=pattern[:64])] for pattern in patterns]
     return InlineKeyboardMarkup(keyboard)
 
+def create_inline_keyboard_with_tanya(pattern):
+    keyboard = [
+        [InlineKeyboardButton("Tanya", callback_data=pattern[:64]), InlineKeyboardButton("Pertanyaan Lainnya", callback_data="minta_pertanyaan_lain")]
+    ]
+    return InlineKeyboardMarkup(keyboard)
+
 async def start(update: Update, context: CallbackContext) -> None:
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
     await asyncio.sleep(TYPING_DELAY)
@@ -100,7 +106,7 @@ async def random_pattern_command(update: Update, context: CallbackContext) -> No
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
     await asyncio.sleep(TYPING_UPDATE_DELAY)
     pattern = get_random_pattern(jp)
-    keyboard = create_inline_keyboard([pattern])
+    keyboard = create_inline_keyboard_with_tanya(pattern)
     await update.message.reply_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
 
 async def bantu_command(update: Update, context: CallbackContext) -> None:
@@ -122,7 +128,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 
     if user_message == "minta_pertanyaan_lain":
         pattern = get_random_pattern(jp)
-        keyboard = create_inline_keyboard([pattern])
+        keyboard = create_inline_keyboard_with_tanya(pattern)
         await query.edit_message_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
     else:
         await query.edit_message_text(f"*👤 Anda:* {user_message}", parse_mode='Markdown')
