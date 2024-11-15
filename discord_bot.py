@@ -58,7 +58,7 @@ async def on_ready():
 
 @client.tree.command()
 @app_commands.rename(pertanyaan='pertanyaan')
-@app_commands.describe(pertanyaan='apa yang mau ditanya ke AI')
+@app_commands.describe(pertanyaan='Pertanyaan yang akan disampaikan ke virtual assistant')
 async def tanya(interaction: discord.Interaction, pertanyaan: str):
     
     await interaction.response.defer()
