@@ -29,10 +29,10 @@ def bot_response(chat, pipeline, jp):
         response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
         logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: None, patterns: None, response: {response}")
         return response, None, None
-    elif 0.1 <= max_prob < 0.15:
+    elif 0.1 <= max_prob < 0.19:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
-        if pred_tag in ['salam', 'bye', 'kemampuan']:
+        if pred_tag in ['salam', 'bye', 'kemampuan', 'salam_pertanyaan', 'salam_umum', 'bye_umum', 'kemampuan_pertanyaan']:
             response = jp.get_response(pred_tag)
             logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: {pred_tag}, patterns: None, response: {response}")
             return response, None, pred_tag
