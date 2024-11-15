@@ -25,13 +25,34 @@ def bot_response(chat, pipeline, jp):
     chat = preprocess(chat)
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
-    if max_prob < 0.065:
-        return "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail.", None
+    if max_prob < 0.1:
+        response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
+        logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: None, patterns: None, response: {response}")
+        return response, None, None
+    elif 0.1 <= max_prob < 0.15:
+        max_id = np.argmax(res[0])
+        pred_tag = pipeline.classes_[max_id]
+        if pred_tag in ['salam', 'bye', 'kemampuan']:
+            response = jp.get_response(pred_tag)
+            logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: {pred_tag}, patterns: None, response: {response}")
+            return response, None, pred_tag
+        subintents = [intent for intent in jp.data['intents'] if any(subintent['tag'] == pred_tag for subintent in intent.get('subintents', []))]
+        if subintents:
+            subintent = subintents[0]
+            other_subintents = [si for si in subintent['subintents'] if si['tag'] != pred_tag]
+            if other_subintents:
+                other_subintent = random.choice(other_subintents)
+                pattern = random.choice(other_subintent['patterns'])
+                keyboard = create_inline_keyboard([pattern])
+                response = jp.get_response(pred_tag)
+                logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: {pred_tag}, patterns: {other_subintent['patterns']}, response: {response}")
+                return response, keyboard, pred_tag
     else:
         max_id = np.argmax(res[0])
         pred_tag = pipeline.classes_[max_id]
         response = jp.get_response(pred_tag)
-        return response, pred_tag
+        logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: {pred_tag}, patterns: None, response: {response}")
+        return response, None, pred_tag
 
 with open("model_chatbot.pkl", "rb") as model_file:
     pipeline = pickle.load(model_file)
@@ -52,13 +73,7 @@ def get_random_pattern(jp):
                 patterns.extend(subintent['patterns'])
     return random.choice(patterns)
 
-def create_inline_keyboard(pattern):
-    keyboard = [
-        [InlineKeyboardButton("Tanya", callback_data=pattern[:64]), InlineKeyboardButton("Pertanyaan Lainnya", callback_data="minta_pertanyaan_lain")]
-    ]
-    return InlineKeyboardMarkup(keyboard)
-
-def create_inline_keyboard_with_3_buttons(patterns):
+def create_inline_keyboard(patterns):
     keyboard = [[InlineKeyboardButton(pattern, callback_data=pattern[:64])] for pattern in patterns]
     return InlineKeyboardMarkup(keyboard)
 
@@ -76,8 +91,8 @@ async def handle_message(update: Update, context: CallbackContext) -> None:
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
     await asyncio.sleep(TYPING_DELAY)
     user_message = update.message.text
-    response, tag = bot_response(user_message, pipeline, jp)
-    await update.message.reply_text(response, parse_mode='Markdown')
+    response, keyboard, tag = bot_response(user_message, pipeline, jp)
+    await update.message.reply_text(response, parse_mode='Markdown', reply_markup=keyboard)
     if tag == 'bye' or tag == 'bye_umum':
         await update.message.reply_text('*Sampai jumpa!* 👋\n\nTerima kasih banyak telah menjadi bagian dari pengujian chatbot kami. 🙏 Kami sangat menghargai waktu dan masukan Anda yang sangat berharga.', parse_mode='Markdown')
 
@@ -85,7 +100,7 @@ async def random_pattern_command(update: Update, context: CallbackContext) -> No
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
     await asyncio.sleep(TYPING_UPDATE_DELAY)
     pattern = get_random_pattern(jp)
-    keyboard = create_inline_keyboard(pattern)
+    keyboard = create_inline_keyboard([pattern])
     await update.message.reply_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
 
 async def bantu_command(update: Update, context: CallbackContext) -> None:
@@ -97,7 +112,7 @@ async def bantu_command(update: Update, context: CallbackContext) -> None:
             for subintent in intent['subintents']:
                 patterns.extend(subintent['patterns'])
     random_patterns = random.sample(patterns, 3)
-    keyboard = create_inline_keyboard_with_3_buttons(random_patterns)
+    keyboard = create_inline_keyboard(random_patterns)
     await update.message.reply_text("✨ *Daftar Pertanyaan* ✨\nBerikut adalah beberapa pertanyaan yang mungkin membantu Anda:", reply_markup=keyboard, parse_mode='Markdown')
 
 async def button(update: Update, context: CallbackContext) -> None:
@@ -107,13 +122,13 @@ async def button(update: Update, context: CallbackContext) -> None:
 
     if user_message == "minta_pertanyaan_lain":
         pattern = get_random_pattern(jp)
-        keyboard = create_inline_keyboard(pattern)
+        keyboard = create_inline_keyboard([pattern])
         await query.edit_message_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
     else:
         await query.edit_message_text(f"*👤 Anda:* {user_message}", parse_mode='Markdown')
         await context.bot.send_chat_action(chat_id=query.message.chat_id, action="typing")
         await asyncio.sleep(TYPING_UPDATE_DELAY)
-        response, tag = bot_response(user_message, pipeline, jp)
+        response, _, tag = bot_response(user_message, pipeline, jp)
         await query.message.reply_text(response, parse_mode='Markdown')
 
 def main() -> None:
