@@ -107,10 +107,7 @@
             "tag": "pembayaran_bank_ocbc",
             "patterns": [
               "Cara bayar pakai bank OCBC gimana?",
-              "Pembayaran uang kampus lewat OCBC gimana caranya?",
               "Kalo mau bayar lewat ATM OCBC gimana caranya?",
-              "Pembayaran di bank OCBC harus pakai apa aja?",
-              "Bayar kuliah di OCBC pakai VA itu gimana?",
               "Langkah bayar biaya kuliah pake ATM OCBC?",
               "Kalo bayar lewat cabang OCBC gimana prosesnya?"
             ],
@@ -125,12 +122,10 @@
           {
             "tag": "pembayaran_antar_bank",
             "patterns": [
-              "Gimana kalo mau transfer bank lain buat bayar kuliah?",
               "Kalo bayar lewat ATM Bersama gimana?",
-              "Cara transfer antar bank buat pembayaran kampus?",
               "Bayar biaya kampus pakai mobile banking bisa gak?",
-              "Bisa bayar pake ATM Bersama gak?",
-              "Gimana kalo saldo pembayaran lebih dari yang ditagih?"
+              "Gimana kalo saldo pembayaran lebih dari yang ditagih?",
+              "Cara transfer antar bank buat pembayaran kampus?"
             ],
             "responses": [
               "Berikut adalah panduan pembayaran biaya kuliah melalui *Mobile Banking OCBC NISP*:\n\n1️⃣ Buka aplikasi *OCBC NISP* dan login.\n2️⃣ Pilih menu *Pembayaran Tagihan* atau *Virtual Account*.\n3️⃣ Masukkan *Nomor Virtual Account (VA)* 16 digit yang disediakan oleh kampus.\n4️⃣ Masukkan *nominal pembayaran* sesuai tagihan.\n5️⃣ Periksa ulang detail transaksi untuk memastikan nomor VA dan nominal benar.\n6️⃣ Setelah yakin, konfirmasikan pembayaran.\n\n_Pastikan untuk menyimpan bukti transaksi sebagai tanda bukti pembayaran yang sah._",
@@ -143,9 +138,11 @@
           {
             "tag": "pembayaran_metode_lain",
             "patterns": [
+              "Gimana kalo mau transfer bank lain buat bayar kuliah?",
               "Metode pembayaran yang bisa dipakai buat bayar kuliah apa aja?",
               "Ada cara bayar selain OCBC gak?",
               "Nomor VA buat pembayaran kampus gimana caranya?",
+              "Bisa bayar pake ATM Bersama gak?",
               "Apa yang bisa kamu bantu tentang pembayaran kuliah?"
             ],
             "responses": [
@@ -415,26 +412,29 @@
         ]
       },
     {
-      "tag": "sewa_ruangan",
+      "tag": "meminjam_ruangan",
       "subintents": [
         {
-          "tag": "prosedur_penyewaan_ruangan",
+          "tag": "prosedur_meminjam_ruangan",
           "patterns": [
-            "Bagaimana cara menyewa ruangan di kampus UIB?",
-            "Bagaimana prosedur penyewaan ruangan di UIB?",
-            "Apa saja langkah yang harus diambil untuk menyewa ruangan di UIB?"
+            "Bagaimana cara meminjam ruangan di kampus UIB?",
+            "Bagaimana prosedur meminjam ruangan di UIB?",
+            "Kayak mana cara meminjam ruangan di UIB?"
           ],
           "responses": [
-              "Untuk menyewa ruangan di UIB, Anda perlu mengajukan surat permohonan yang mencakup *kegiatan*, *tanggal*, dan *ruangan* yang dibutuhkan. \n\nSurat permohonan tersebut ditujukan kepada *Humas*, yang akan memproses pengajuan Anda dan meneruskan ke bagian umum untuk penjadwalan dan pengaturan penggunaan ruangan.",
+              "Untuk meminjam ruangan di UIB, Anda perlu mengajukan surat permohonan yang mencakup *kegiatan*, *tanggal*, dan *ruangan* yang dibutuhkan. \n\nSurat permohonan tersebut ditujukan kepada *Humas*, yang akan memproses pengajuan Anda dan meneruskan ke bagian umum untuk penjadwalan dan pengaturan penggunaan ruangan.",
               
-              "Proses penyewaan ruangan di UIB dimulai dengan mengajukan surat permohonan sewa yang mencantumkan *detail kegiatan*, *tanggal*, dan *ruangan* yang diperlukan. \n\nPermohonan Anda akan diproses oleh *Humas*, yang kemudian akan meneruskan ke bagian umum untuk verifikasi dan penjadwalan ruangan."
+              "Proses meminjam ruangan di UIB dimulai dengan mengajukan surat permohonan sewa yang mencantumkan *detail kegiatan*, *tanggal*, dan *ruangan* yang diperlukan. \n\nPermohonan Anda akan diproses oleh *Humas*, yang kemudian akan meneruskan ke bagian umum untuk verifikasi dan penjadwalan ruangan."
           ]
         },
         {
           "tag": "prosedur_sewa_stall_kantin",
           "patterns": [
-            "Saya ingin menyewa ruangan untuk acara di UIB, bagaimana caranya?",
-            "Bagaimana cara menyewa stall kantin di UIB?"
+            "Saya ingin menyewa kantin di UIB, bagaimana caranya?",
+            "Bagaimana cara menyewa stall kantin di UIB?",
+            "Berapa harga sewa kantin?",
+            "Nyewa kantin gimana?",
+            "Apakah bisa sewa kantin?"
           ],
           "responses": [
               "Untuk menyewa stall kantin di UIB, Anda perlu mengajukan proposal yang mencakup detail kegiatan dan kebutuhan Anda. Proposal ini akan diteruskan ke *Humas*, yang kemudian akan berkoordinasi dengan *Biro BAUK* untuk memastikan penyewaan dapat dilakukan.",
@@ -465,7 +465,8 @@
           "patterns": [
             "Berapa biaya untuk memasang spanduk di kampus UIB?",
             "Ada biaya untuk pemasangan spanduk di UIB?",
-            "Biaya pemasangan spanduk di UIB?"
+            "Biaya pemasangan spanduk di UIB?",
+            "Harga pemasangan spanduk di UIB berapa?"
           ],
           "responses": [
               "Biaya untuk pemasangan spanduk di kampus UIB adalah *Rp 100.000,- per minggu*. Sebelum memasang spanduk, Anda diwajibkan untuk mengajukan permohonan terlebih dahulu kepada pihak *Humas*. Permohonan tersebut akan diteruskan untuk mendapatkan izin serta penjadwalan pemasangan spanduk yang sesuai dengan ketentuan yang berlaku di kampus.\n\nPastikan Anda menyertakan informasi yang lengkap mengenai waktu dan lokasi pemasangan dalam pengajuan. Setelah permohonan disetujui, Anda akan mendapatkan jadwal pemasangan sesuai dengan kebijakan dan ketersediaan ruang di kampus.",
@@ -485,9 +486,7 @@
             "Bagaimana proses penyetaraan ijazah luar negeri?",
             "Bagaimana cara mendapatkan dokumen penyetaraan ijazah?",
             "Berapa lama proses penyetaraan ijazah luar negeri?",
-            "Bagaimana jika ijazah saya tidak diakui di Indonesia?",
-            "Apa yang harus dilakukan untuk menyetarakan ijazah luar negeri?",
-            "Dimana saya bisa menyetarakan ijazah luar negeri?"
+            "Bagaimana jika ijazah saya tidak diakui di Indonesia?"
           ],
           "responses": [
             "Jika Anda adalah lulusan luar negeri dan ingin melanjutkan studi di UIB, Anda perlu terlebih dahulu menyetarakan ijazah Anda melalui Kemendikbud, atau sebagai alternatif, mengikuti Ujian Paket C untuk penyetaraan ijazah. \n\nProses ini penting agar ijazah yang Anda miliki dapat diakui secara resmi di Indonesia.",
@@ -517,7 +516,6 @@
             "Apa dokumen yang dibutuhkan untuk pendaftaran lulusan luar negeri?",
             "Apa yang harus dipersiapkan sebelum mendaftar di UIB?",
             "Apa syarat khusus bagi lulusan luar negeri yang mendaftar?",
-            "Dokumen apa saja yang diperlukan untuk lulusan luar negeri?",
             "Apa saja persyaratan dokumen untuk lulusan luar negeri?"
           ],
           "responses": [
