@@ -86,7 +86,7 @@ def create_inline_keyboard_with_tanya(pattern):
 async def start(update: Update, context: CallbackContext) -> None:
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
     await asyncio.sleep(TYPING_DELAY)
-    await update.message.reply_text('*Hi!* Anda sedang terhubung dengan chatbot kami yang saat ini masih dalam tahap pengembangan. 😊\n\nKami sedang bekerja keras untuk meningkatkan kemampuan chatbot ini agar dapat memberikan informasi yang lebih lengkap dan akurat. Saat ini, chatbot ini bisa memberikan jawaban terbatas, namun tim kami selalu siap membantu jika Anda membutuhkan informasi lebih lanjut.\n\nTerima kasih atas kesabaran Anda, dan kami akan terus berusaha memberikan pengalaman yang lebih baik! 💪\n\n*Semoga hari Anda menyenangkan!* 😊', parse_mode='Markdown')
+    await update.message.reply_text('*Halo!* Anda sedang terhubung dengan chatbot kami yang masih dalam tahap pengembangan. 😊\n\nKami tengah bekerja keras untuk meningkatkan kemampuan chatbot ini agar bisa memberikan informasi yang lebih lengkap dan akurat. Saat ini, chatbot ini dapat memberikan jawaban terbatas, namun tim kami selalu siap membantu jika Anda memerlukan informasi lebih lanjut. 💪\n\nAnda dapat langsung bertanya kepada kami kapan saja, atau gunakan beberapa perintah berikut untuk memulai percakapan:\n\n*Perintah yang tersedia:*\n/start - *Mulai percakapan* dan jelajahi berbagai fitur chatbot kami.\n/tanya - *Ajukan pertanyaan* dan dapatkan rekomendasi terbaik dari chatbot.\n/help - *Panduan lengkap* tentang cara menggunakan chatbot dan fitur-fitur yang ada.\n/bantu - *Dapatkan rekomendasi* pertanyaan yang mungkin menarik untuk ditanyakan.\n\n*Semoga hari Anda menyenangkan!* 😊', parse_mode='Markdown')
 
 async def help_command(update: Update, context: CallbackContext) -> None:
     await context.bot.send_chat_action(chat_id=update.effective_chat.id, action="typing")
@@ -131,7 +131,8 @@ async def button(update: Update, context: CallbackContext) -> None:
         keyboard = create_inline_keyboard_with_tanya(pattern)
         await query.edit_message_text(f"✨ *Rekomendasi Pertanyaan* ✨\nBerikut adalah pertanyaan yang mungkin membantu Anda:\n\n**{pattern}**", reply_markup=keyboard, parse_mode='Markdown')
     else:
-        await query.edit_message_text(f"*👤 Anda:* {user_message}", parse_mode='Markdown')
+        full_message = f"*👤 Anda:* {user_message}"
+        await query.edit_message_text(full_message, parse_mode='Markdown')
         await context.bot.send_chat_action(chat_id=query.message.chat_id, action="typing")
         await asyncio.sleep(TYPING_UPDATE_DELAY)
         response, _, tag = bot_response(user_message, pipeline, jp)
