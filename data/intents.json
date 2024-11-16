@@ -6,11 +6,11 @@
           {
             "tag": "salam_pertanyaan",
             "patterns": [
-              "saya minta tolong",
-              "Pertanyaan dari saya",
-              "Ingin bertanya",
-              "Mau tanya",
-              "Bantu saya"
+              "Minta tolong boleh?",
+              "Pertanyaanku apakah bisa dijawab olehmu?",
+              "Ingin meminta bantuan kepada anda",
+              "Mau tanya dong",
+              "Bantu saya bisa?"
             ],
             "responses": [
               "👋 *Halo! Selamat datang di layanan informasi pendaftaran UIB!*\n\nSaya siap membantu Anda dengan berbagai informasi terkait pendaftaran program S1, beasiswa, jadwal penting, dan banyak lagi. 😊\n\nBerikut beberapa hal yang bisa saya bantu:\n\n1️⃣ *Informasi Pendaftaran:* Saya dapat memberikan info tentang prosedur pendaftaran, persyaratan, dan dokumen yang dibutuhkan.\n2️⃣ *Beasiswa:* Cari tahu tentang beasiswa yang tersedia dan cara untuk mendaftar.\n3️⃣ *Jadwal dan Tenggat Waktu:* Dapatkan informasi tentang deadline pendaftaran dan acara penting lainnya.\n\n🔍 *Apa yang ingin Anda ketahui?* Silakan pilih topik atau tanyakan langsung, dan saya akan dengan senang hati membantu!"
@@ -416,7 +416,9 @@
               "Bagaimana prosedur minjam ruangan?",
               "Kayak mana cara meminjam ruangan di UIB?",
               "Saya mau pinjam ruangan",
-              "Apakah bisa pinjam sebentar ruangan"
+              "Apakah bisa meminjam ruangan?",
+              "Ruangan di uib bisa di pinjam mahasiswa?",
+              "Apakah bisa pinjam sebentar ruangan untuk belajar"
             ],
             "responses": [
                 "Untuk meminjam ruangan di UIB, Anda perlu mengajukan surat permohonan yang mencakup *kegiatan*, *tanggal*, dan *ruangan* yang dibutuhkan. \n\nSurat permohonan tersebut ditujukan kepada *Humas*, yang akan memproses pengajuan Anda dan meneruskan ke bagian umum untuk penjadwalan dan pengaturan penggunaan ruangan.",
