@@ -26,7 +26,7 @@ def bot_response(chat, pipeline, jp):
     res = pipeline.predict_proba([chat])
     max_prob = max(res[0])
     if max_prob < 0.08:
-        response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
+        response = "🙏 *Maaf, saya tidak dapat memberikan jawaban untuk pertanyaan tersebut.*\n\nNamun, jika Anda membutuhkan informasi lebih lanjut atau memiliki pertanyaan yang lebih spesifik, silahkan coba ketik ulang dengan lebih detail atau menghubungi *Humas UIB*.\n\n📱 *LINE Pusat Informasi UIB:* [https://lin.ee/2Ep0bNN](https://lin.ee/2Ep0bNN)\n📞 *WhatsApp Humas UIB:* [0812-7526-2369](https://wa.me/6281275262369)\n\nTim Humas kami siap memberikan penjelasan yang lebih mendalam dan menjawab pertanyaan Anda yang lebih detail."
         logger.info(f"User question: {chat}, max_prob: {max_prob}, tag: None, patterns: None, response: {response}")
         return response, None, None
     elif 0.08 <= max_prob < 0.19:
